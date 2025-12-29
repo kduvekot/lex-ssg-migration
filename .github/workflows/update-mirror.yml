@@ -211,26 +211,35 @@ jobs:
 
       - name: Push mirror to comparison-artifacts branch
         run: |
-          git fetch origin comparison-artifacts || true
-          git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
+          cd /tmp
 
-          # Keep existing baseline screenshots if they exist
-          mkdir -p /tmp/backup
-          cp -r baseline /tmp/backup/ 2>/dev/null || true
+          # Try to clone comparison-artifacts branch
+          if git clone --branch comparison-artifacts --single-branch --depth 1 \
+              https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git \
+              artifacts 2>/dev/null; then
+            echo "✓ Cloned existing comparison-artifacts branch"
+          else
+            # Branch doesn't exist - create empty directory and init
+            echo "Creating new comparison-artifacts branch"
+            mkdir -p artifacts
+            cd artifacts
+            git init
+            git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+            git checkout --orphan comparison-artifacts
+            # Start with empty tree
+            cd /tmp
+          fi
 
-          # Clean and copy new mirror
-          git rm -rf . || true
+          cd /tmp/artifacts
 
-          # Restore baseline screenshots
-          cp -r /tmp/backup/baseline . 2>/dev/null || mkdir -p baseline
-
-          # Copy mirror
-          cp -r mirror .
+          # Remove old mirror, copy new one
+          rm -rf mirror
+          cp -r $GITHUB_WORKSPACE/mirror .
 
           # Commit and push
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
+          git add mirror/
           git commit -m "Update mirror $(date +%Y-%m-%d)" || echo "No changes to commit"
           git push origin comparison-artifacts --force
 
