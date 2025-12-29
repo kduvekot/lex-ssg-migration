@@ -1,0 +1,532 @@
+{
+  "source": "original",
+  "baseUrl": "http://localhost:8080",
+  "timestamp": "2025-12-29T07:13:06.098Z",
+  "screenshots": [
+    {
+      "name": "home",
+      "viewport": "mobile",
+      "filename": "home-mobile.png",
+      "url": "http://localhost:8080/",
+      "success": true
+    },
+    {
+      "name": "home",
+      "viewport": "tablet",
+      "filename": "home-tablet.png",
+      "url": "http://localhost:8080/",
+      "success": true
+    },
+    {
+      "name": "home",
+      "viewport": "desktop",
+      "filename": "home-desktop.png",
+      "url": "http://localhost:8080/",
+      "success": true
+    },
+    {
+      "name": "home",
+      "viewport": "wide",
+      "filename": "home-wide.png",
+      "url": "http://localhost:8080/",
+      "success": true
+    },
+    {
+      "name": "home",
+      "viewport": "ultrawide",
+      "filename": "home-ultrawide.png",
+      "url": "http://localhost:8080/",
+      "success": true
+    },
+    {
+      "name": "over-mij",
+      "viewport": "mobile",
+      "filename": "over-mij-mobile.png",
+      "url": "http://localhost:8080/over-mij/",
+      "success": true
+    },
+    {
+      "name": "over-mij",
+      "viewport": "tablet",
+      "filename": "over-mij-tablet.png",
+      "url": "http://localhost:8080/over-mij/",
+      "success": true
+    },
+    {
+      "name": "over-mij",
+      "viewport": "desktop",
+      "filename": "over-mij-desktop.png",
+      "url": "http://localhost:8080/over-mij/",
+      "success": true
+    },
+    {
+      "name": "over-mij",
+      "viewport": "wide",
+      "filename": "over-mij-wide.png",
+      "url": "http://localhost:8080/over-mij/",
+      "success": true
+    },
+    {
+      "name": "over-mij",
+      "viewport": "ultrawide",
+      "filename": "over-mij-ultrawide.png",
+      "url": "http://localhost:8080/over-mij/",
+      "success": true
+    },
+    {
+      "name": "behandeling",
+      "viewport": "mobile",
+      "filename": "behandeling-mobile.png",
+      "url": "http://localhost:8080/behandeling/",
+      "success": true
+    },
+    {
+      "name": "behandeling",
+      "viewport": "tablet",
+      "filename": "behandeling-tablet.png",
+      "url": "http://localhost:8080/behandeling/",
+      "success": true
+    },
+    {
+      "name": "behandeling",
+      "viewport": "desktop",
+      "filename": "behandeling-desktop.png",
+      "url": "http://localhost:8080/behandeling/",
+      "success": true
+    },
+    {
+      "name": "behandeling",
+      "viewport": "wide",
+      "filename": "behandeling-wide.png",
+      "url": "http://localhost:8080/behandeling/",
+      "success": true
+    },
+    {
+      "name": "behandeling",
+      "viewport": "ultrawide",
+      "filename": "behandeling-ultrawide.png",
+      "url": "http://localhost:8080/behandeling/",
+      "success": true
+    },
+    {
+      "name": "aanmelding",
+      "viewport": "mobile",
+      "filename": "aanmelding-mobile.png",
+      "url": "http://localhost:8080/aanmelding/",
+      "success": true
+    },
+    {
+      "name": "aanmelding",
+      "viewport": "tablet",
+      "filename": "aanmelding-tablet.png",
+      "url": "http://localhost:8080/aanmelding/",
+      "success": true
+    },
+    {
+      "name": "aanmelding",
+      "viewport": "desktop",
+      "filename": "aanmelding-desktop.png",
+      "url": "http://localhost:8080/aanmelding/",
+      "success": true
+    },
+    {
+      "name": "aanmelding",
+      "viewport": "wide",
+      "filename": "aanmelding-wide.png",
+      "url": "http://localhost:8080/aanmelding/",
+      "success": true
+    },
+    {
+      "name": "aanmelding",
+      "viewport": "ultrawide",
+      "filename": "aanmelding-ultrawide.png",
+      "url": "http://localhost:8080/aanmelding/",
+      "success": true
+    },
+    {
+      "name": "tarieven",
+      "viewport": "mobile",
+      "filename": "tarieven-mobile.png",
+      "url": "http://localhost:8080/tarieven-en-vergoeding/",
+      "success": true
+    },
+    {
+      "name": "tarieven",
+      "viewport": "tablet",
+      "filename": "tarieven-tablet.png",
+      "url": "http://localhost:8080/tarieven-en-vergoeding/",
+      "success": true
+    },
+    {
+      "name": "tarieven",
+      "viewport": "desktop",
+      "filename": "tarieven-desktop.png",
+      "url": "http://localhost:8080/tarieven-en-vergoeding/",
+      "success": true
+    },
+    {
+      "name": "tarieven",
+      "viewport": "wide",
+      "filename": "tarieven-wide.png",
+      "url": "http://localhost:8080/tarieven-en-vergoeding/",
+      "success": true
+    },
+    {
+      "name": "tarieven",
+      "viewport": "ultrawide",
+      "filename": "tarieven-ultrawide.png",
+      "url": "http://localhost:8080/tarieven-en-vergoeding/",
+      "success": true
+    },
+    {
+      "name": "cursussen",
+      "viewport": "mobile",
+      "filename": "cursussen-mobile.png",
+      "url": "http://localhost:8080/cursussen/",
+      "success": true
+    },
+    {
+      "name": "cursussen",
+      "viewport": "tablet",
+      "filename": "cursussen-tablet.png",
+      "url": "http://localhost:8080/cursussen/",
+      "success": true
+    },
+    {
+      "name": "cursussen",
+      "viewport": "desktop",
+      "filename": "cursussen-desktop.png",
+      "url": "http://localhost:8080/cursussen/",
+      "success": true
+    },
+    {
+      "name": "cursussen",
+      "viewport": "wide",
+      "filename": "cursussen-wide.png",
+      "url": "http://localhost:8080/cursussen/",
+      "success": true
+    },
+    {
+      "name": "cursussen",
+      "viewport": "ultrawide",
+      "filename": "cursussen-ultrawide.png",
+      "url": "http://localhost:8080/cursussen/",
+      "success": true
+    },
+    {
+      "name": "werkwijze",
+      "viewport": "mobile",
+      "filename": "werkwijze-mobile.png",
+      "url": "http://localhost:8080/werkwijze/",
+      "success": true
+    },
+    {
+      "name": "werkwijze",
+      "viewport": "tablet",
+      "filename": "werkwijze-tablet.png",
+      "url": "http://localhost:8080/werkwijze/",
+      "success": true
+    },
+    {
+      "name": "werkwijze",
+      "viewport": "desktop",
+      "filename": "werkwijze-desktop.png",
+      "url": "http://localhost:8080/werkwijze/",
+      "success": true
+    },
+    {
+      "name": "werkwijze",
+      "viewport": "wide",
+      "filename": "werkwijze-wide.png",
+      "url": "http://localhost:8080/werkwijze/",
+      "success": true
+    },
+    {
+      "name": "werkwijze",
+      "viewport": "ultrawide",
+      "filename": "werkwijze-ultrawide.png",
+      "url": "http://localhost:8080/werkwijze/",
+      "success": true
+    },
+    {
+      "name": "werk",
+      "viewport": "mobile",
+      "filename": "werk-mobile.png",
+      "url": "http://localhost:8080/werk/",
+      "success": true
+    },
+    {
+      "name": "werk",
+      "viewport": "tablet",
+      "filename": "werk-tablet.png",
+      "url": "http://localhost:8080/werk/",
+      "success": true
+    },
+    {
+      "name": "werk",
+      "viewport": "desktop",
+      "filename": "werk-desktop.png",
+      "url": "http://localhost:8080/werk/",
+      "success": true
+    },
+    {
+      "name": "werk",
+      "viewport": "wide",
+      "filename": "werk-wide.png",
+      "url": "http://localhost:8080/werk/",
+      "success": true
+    },
+    {
+      "name": "werk",
+      "viewport": "ultrawide",
+      "filename": "werk-ultrawide.png",
+      "url": "http://localhost:8080/werk/",
+      "success": true
+    },
+    {
+      "name": "sport",
+      "viewport": "mobile",
+      "filename": "sport-mobile.png",
+      "url": "http://localhost:8080/sport/",
+      "success": true
+    },
+    {
+      "name": "sport",
+      "viewport": "tablet",
+      "filename": "sport-tablet.png",
+      "url": "http://localhost:8080/sport/",
+      "success": true
+    },
+    {
+      "name": "sport",
+      "viewport": "desktop",
+      "filename": "sport-desktop.png",
+      "url": "http://localhost:8080/sport/",
+      "success": true
+    },
+    {
+      "name": "sport",
+      "viewport": "wide",
+      "filename": "sport-wide.png",
+      "url": "http://localhost:8080/sport/",
+      "success": true
+    },
+    {
+      "name": "sport",
+      "viewport": "ultrawide",
+      "filename": "sport-ultrawide.png",
+      "url": "http://localhost:8080/sport/",
+      "success": true
+    },
+    {
+      "name": "gezondheid",
+      "viewport": "mobile",
+      "filename": "gezondheid-mobile.png",
+      "url": "http://localhost:8080/gezondheid/",
+      "success": true
+    },
+    {
+      "name": "gezondheid",
+      "viewport": "tablet",
+      "filename": "gezondheid-tablet.png",
+      "url": "http://localhost:8080/gezondheid/",
+      "success": true
+    },
+    {
+      "name": "gezondheid",
+      "viewport": "desktop",
+      "filename": "gezondheid-desktop.png",
+      "url": "http://localhost:8080/gezondheid/",
+      "success": true
+    },
+    {
+      "name": "gezondheid",
+      "viewport": "wide",
+      "filename": "gezondheid-wide.png",
+      "url": "http://localhost:8080/gezondheid/",
+      "success": true
+    },
+    {
+      "name": "gezondheid",
+      "viewport": "ultrawide",
+      "filename": "gezondheid-ultrawide.png",
+      "url": "http://localhost:8080/gezondheid/",
+      "success": true
+    },
+    {
+      "name": "running-therapie",
+      "viewport": "mobile",
+      "filename": "running-therapie-mobile.png",
+      "url": "http://localhost:8080/running-therapie/",
+      "success": true
+    },
+    {
+      "name": "running-therapie",
+      "viewport": "tablet",
+      "filename": "running-therapie-tablet.png",
+      "url": "http://localhost:8080/running-therapie/",
+      "success": true
+    },
+    {
+      "name": "running-therapie",
+      "viewport": "desktop",
+      "filename": "running-therapie-desktop.png",
+      "url": "http://localhost:8080/running-therapie/",
+      "success": true
+    },
+    {
+      "name": "running-therapie",
+      "viewport": "wide",
+      "filename": "running-therapie-wide.png",
+      "url": "http://localhost:8080/running-therapie/",
+      "success": true
+    },
+    {
+      "name": "running-therapie",
+      "viewport": "ultrawide",
+      "filename": "running-therapie-ultrawide.png",
+      "url": "http://localhost:8080/running-therapie/",
+      "success": true
+    },
+    {
+      "name": "contact",
+      "viewport": "mobile",
+      "filename": "contact-mobile.png",
+      "url": "http://localhost:8080/contact/",
+      "success": true
+    },
+    {
+      "name": "contact",
+      "viewport": "tablet",
+      "filename": "contact-tablet.png",
+      "url": "http://localhost:8080/contact/",
+      "success": true
+    },
+    {
+      "name": "contact",
+      "viewport": "desktop",
+      "filename": "contact-desktop.png",
+      "url": "http://localhost:8080/contact/",
+      "success": true
+    },
+    {
+      "name": "contact",
+      "viewport": "wide",
+      "filename": "contact-wide.png",
+      "url": "http://localhost:8080/contact/",
+      "success": true
+    },
+    {
+      "name": "contact",
+      "viewport": "ultrawide",
+      "filename": "contact-ultrawide.png",
+      "url": "http://localhost:8080/contact/",
+      "success": true
+    },
+    {
+      "name": "privacy",
+      "viewport": "mobile",
+      "filename": "privacy-mobile.png",
+      "url": "http://localhost:8080/privacy/",
+      "success": true
+    },
+    {
+      "name": "privacy",
+      "viewport": "tablet",
+      "filename": "privacy-tablet.png",
+      "url": "http://localhost:8080/privacy/",
+      "success": true
+    },
+    {
+      "name": "privacy",
+      "viewport": "desktop",
+      "filename": "privacy-desktop.png",
+      "url": "http://localhost:8080/privacy/",
+      "success": true
+    },
+    {
+      "name": "privacy",
+      "viewport": "wide",
+      "filename": "privacy-wide.png",
+      "url": "http://localhost:8080/privacy/",
+      "success": true
+    },
+    {
+      "name": "privacy",
+      "viewport": "ultrawide",
+      "filename": "privacy-ultrawide.png",
+      "url": "http://localhost:8080/privacy/",
+      "success": true
+    },
+    {
+      "name": "disclaimer",
+      "viewport": "mobile",
+      "filename": "disclaimer-mobile.png",
+      "url": "http://localhost:8080/disclaimer/",
+      "success": true
+    },
+    {
+      "name": "disclaimer",
+      "viewport": "tablet",
+      "filename": "disclaimer-tablet.png",
+      "url": "http://localhost:8080/disclaimer/",
+      "success": true
+    },
+    {
+      "name": "disclaimer",
+      "viewport": "desktop",
+      "filename": "disclaimer-desktop.png",
+      "url": "http://localhost:8080/disclaimer/",
+      "success": true
+    },
+    {
+      "name": "disclaimer",
+      "viewport": "wide",
+      "filename": "disclaimer-wide.png",
+      "url": "http://localhost:8080/disclaimer/",
+      "success": true
+    },
+    {
+      "name": "disclaimer",
+      "viewport": "ultrawide",
+      "filename": "disclaimer-ultrawide.png",
+      "url": "http://localhost:8080/disclaimer/",
+      "success": true
+    },
+    {
+      "name": "kwaliteitsstatuut",
+      "viewport": "mobile",
+      "filename": "kwaliteitsstatuut-mobile.png",
+      "url": "http://localhost:8080/kwaliteitsstatuut/",
+      "success": true
+    },
+    {
+      "name": "kwaliteitsstatuut",
+      "viewport": "tablet",
+      "filename": "kwaliteitsstatuut-tablet.png",
+      "url": "http://localhost:8080/kwaliteitsstatuut/",
+      "success": true
+    },
+    {
+      "name": "kwaliteitsstatuut",
+      "viewport": "desktop",
+      "filename": "kwaliteitsstatuut-desktop.png",
+      "url": "http://localhost:8080/kwaliteitsstatuut/",
+      "success": true
+    },
+    {
+      "name": "kwaliteitsstatuut",
+      "viewport": "wide",
+      "filename": "kwaliteitsstatuut-wide.png",
+      "url": "http://localhost:8080/kwaliteitsstatuut/",
+      "success": true
+    },
+    {
+      "name": "kwaliteitsstatuut",
+      "viewport": "ultrawide",
+      "filename": "kwaliteitsstatuut-ultrawide.png",
+      "url": "http://localhost:8080/kwaliteitsstatuut/",
+      "success": true
+    }
+  ]
+}
