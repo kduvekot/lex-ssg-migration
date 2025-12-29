@@ -1,0 +1,92 @@
+[
+  {
+    "path": "/",
+    "name": "home",
+    "priority": "high",
+    "notes": "Homepage with hero section"
+  },
+  {
+    "path": "/over-mij/",
+    "name": "over-mij",
+    "priority": "high",
+    "notes": "About page"
+  },
+  {
+    "path": "/behandeling/",
+    "name": "behandeling",
+    "priority": "high",
+    "notes": "Main treatment page"
+  },
+  {
+    "path": "/aanmelding/",
+    "name": "aanmelding",
+    "priority": "medium",
+    "notes": "Registration info"
+  },
+  {
+    "path": "/tarieven-en-vergoeding/",
+    "name": "tarieven",
+    "priority": "medium",
+    "notes": "Pricing page"
+  },
+  {
+    "path": "/cursussen/",
+    "name": "cursussen",
+    "priority": "medium",
+    "notes": "Courses"
+  },
+  {
+    "path": "/werkwijze/",
+    "name": "werkwijze",
+    "priority": "medium",
+    "notes": "Methodology"
+  },
+  {
+    "path": "/werk/",
+    "name": "werk",
+    "priority": "medium",
+    "notes": "Work psychology"
+  },
+  {
+    "path": "/sport/",
+    "name": "sport",
+    "priority": "medium",
+    "notes": "Sports psychology"
+  },
+  {
+    "path": "/gezondheid/",
+    "name": "gezondheid",
+    "priority": "medium",
+    "notes": "Health"
+  },
+  {
+    "path": "/running-therapie/",
+    "name": "running-therapie",
+    "priority": "medium",
+    "notes": "Running therapy"
+  },
+  {
+    "path": "/contact/",
+    "name": "contact",
+    "priority": "high",
+    "notes": "Contact page with form"
+  },
+  {
+    "path": "/privacy/",
+    "name": "privacy",
+    "priority": "low",
+    "notes": "Privacy policy"
+  },
+  {
+    "path": "/disclaimer/",
+    "name": "disclaimer",
+    "priority": "low",
+    "notes": "Disclaimer"
+  },
+  {
+    "path": "/kwaliteitsstatuut/",
+    "name": "kwaliteitsstatuut",
+    "priority": "low",
+    "notes": "Quality certification"
+  }
+]

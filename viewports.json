@@ -1,0 +1,27 @@
+{
+  "mobile": {
+    "width": 375,
+    "height": 812,
+    "description": "iPhone X / Modern smartphones"
+  },
+  "tablet": {
+    "width": 768,
+    "height": 1024,
+    "description": "iPad / Standard tablets"
+  },
+  "desktop": {
+    "width": 1024,
+    "height": 768,
+    "description": "Small desktop / Large tablet landscape"
+  },
+  "wide": {
+    "width": 1440,
+    "height": 900,
+    "description": "Standard desktop monitors"
+  },
+  "ultrawide": {
+    "width": 1920,
+    "height": 1080,
+    "description": "Full HD / Large monitors"
+  }
+}

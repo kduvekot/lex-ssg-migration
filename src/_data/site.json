@@ -1,0 +1,31 @@
+{
+  "title": "Lex Duvekot",
+  "subtitle": "GZ Psycholoog",
+  "description": "GZ Psycholoog Lex Duvekot in Haarlem. Sportpsychologie, gezondheid en werk. Geen wachtlijst, direct intake.",
+  "url": "https://lex.virtual-efficiency.nl",
+  "author": "Lex Duvekot",
+  "email": "lex@lexduvekot.nl",
+  "phone": "06-26838558",
+  "whatsapp": "31626838558",
+  "address": {
+    "street": "Fonteinlaan 5",
+    "postalCode": "2012 JG",
+    "city": "Haarlem",
+    "region": "Noord-Holland",
+    "country": "NL"
+  },
+  "registration": {
+    "agbPersonal": "94012524",
+    "agbPractice": "94065500",
+    "kvk": "53489527",
+    "big": "99927470325"
+  },
+  "social": {
+    "whatsapp": "https://wa.me/31626838558"
+  },
+  "memberships": [
+    "LVVP",
+    "VSPN"
+  ],
+  "language": "nl"
+}
