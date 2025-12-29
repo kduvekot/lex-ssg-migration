@@ -124,19 +124,35 @@ jobs:
           path: comparison/baseline/
           retention-days: 90
 
-      - name: Checkout comparison-artifacts branch
+      - name: Push to comparison-artifacts branch
         run: |
-          git fetch origin comparison-artifacts || true
-          git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
+          cd /tmp
 
-          # Remove all existing files (clean slate for orphan branch)
-          git rm -rf . || true
+          # Try to clone comparison-artifacts branch
+          if git clone --branch comparison-artifacts --single-branch --depth 1 \
+              https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git \
+              artifacts 2>/dev/null; then
+            echo "✓ Cloned existing comparison-artifacts branch"
+          else
+            # Branch doesn't exist - create empty directory and init
+            echo "Creating new comparison-artifacts branch"
+            mkdir -p artifacts
+            cd artifacts
+            git init
+            git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+            git checkout --orphan comparison-artifacts
+            cd /tmp
+          fi
 
-          # Copy baseline screenshots
-          mkdir -p baseline
-          cp -r comparison/baseline/* baseline/ || true
+          cd /tmp/artifacts
 
-          # Commit and push
+          # Only remove existing baseline folder, leave mirror untouched
+          rm -rf baseline
+
+          # Copy new baseline screenshots
+          cp -r $GITHUB_WORKSPACE/comparison/baseline .
+
+          # Commit and push (only baseline changes)
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add baseline/
