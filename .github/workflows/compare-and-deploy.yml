@@ -1,0 +1,231 @@
+# .github/workflows/compare-and-deploy.yml
+# Runs on every push to main:
+# 1. Build Eleventy site
+# 2. Capture screenshots of built site
+# 3. Compare with baseline
+# 4. Generate diff report
+# 5. Deploy to GitHub Pages
+
+name: Compare and Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Sets permissions for GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    
+    outputs:
+      has_regressions: ${{ steps.compare.outputs.has_regressions }}
+      max_diff: ${{ steps.compare.outputs.max_diff }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Eleventy site
+        run: npm run build
+        env:
+          NODE_ENV: production
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
+      - name: Download baseline screenshots
+        continue-on-error: true
+        run: |
+          mkdir -p comparison/baseline
+          git fetch origin comparison-artifacts || true
+          git checkout origin/comparison-artifacts -- baseline/ 2>/dev/null || echo "No baseline found"
+          if [ -d "baseline" ]; then
+            mv baseline/* comparison/baseline/ || true
+            rmdir baseline || true
+          fi
+          echo "Baseline files:"
+          ls -la comparison/baseline/ || echo "No baseline files"
+
+      - name: Serve built site
+        run: |
+          npm install -g http-server
+          cd _site
+          http-server -p 8080 &
+          sleep 3
+          echo "Built site preview:"
+          curl -s http://localhost:8080/ | head -20
+
+      - name: Capture current screenshots
+        run: |
+          mkdir -p comparison/current
+          node scripts/capture-screenshots.js \
+            --base-url="http://localhost:8080" \
+            --output-dir="comparison/current" \
+            --source="eleventy"
+
+      - name: Compare screenshots
+        id: compare
+        run: |
+          mkdir -p comparison/diffs
+          node scripts/compare-screenshots.js \
+            --baseline-dir="comparison/baseline" \
+            --current-dir="comparison/current" \
+            --diff-dir="comparison/diffs" \
+            --output-json="comparison/results.json"
+          
+          # Parse results for summary
+          if [ -f "comparison/results.json" ]; then
+            MAX_DIFF=$(node -e "const r=require('./comparison/results.json'); console.log(Math.max(...Object.values(r.diffs || {}).map(d=>d.percentage || 0)))")
+            HAS_REGRESSIONS=$(node -e "const r=require('./comparison/results.json'); console.log(Object.values(r.diffs || {}).some(d=>(d.percentage || 0) > 5))")
+            echo "max_diff=$MAX_DIFF" >> $GITHUB_OUTPUT
+            echo "has_regressions=$HAS_REGRESSIONS" >> $GITHUB_OUTPUT
+          else
+            echo "max_diff=unknown" >> $GITHUB_OUTPUT
+            echo "has_regressions=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate comparison report
+        run: |
+          node scripts/generate-report.js \
+            --results="comparison/results.json" \
+            --output="comparison/report.html"
+
+      - name: Upload comparison artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: comparison-results
+          path: |
+            comparison/current/
+            comparison/diffs/
+            comparison/results.json
+            comparison/report.html
+          retention-days: 30
+
+      - name: Update comparison-artifacts branch
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          # Save comparison files
+          mkdir -p /tmp/comparison-update
+          cp -r comparison/current /tmp/comparison-update/
+          cp -r comparison/diffs /tmp/comparison-update/
+          cp comparison/results.json /tmp/comparison-update/ || true
+          cp comparison/report.html /tmp/comparison-update/ || true
+          
+          # Switch to orphan branch
+          git fetch origin comparison-artifacts || true
+          git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
+          
+          # Keep baseline, update current and diffs
+          mkdir -p current diffs
+          rm -rf current/* diffs/*
+          cp -r /tmp/comparison-update/current/* current/ || true
+          cp -r /tmp/comparison-update/diffs/* diffs/ || true
+          cp /tmp/comparison-update/results.json . || true
+          cp /tmp/comparison-update/report.html . || true
+          
+          # Commit and push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update comparison $(date +%Y-%m-%d-%H%M)" || echo "No changes"
+          git push origin comparison-artifacts --force
+          
+          # Switch back to main
+          git checkout main
+
+      - name: Build site for deployment
+        run: npm run build
+
+      - name: Add comparison reports to site
+        run: |
+          # Create compare directory in built site
+          mkdir -p _site/compare
+          
+          # Copy comparison assets
+          cp comparison/report.html _site/compare/index.html || echo "No report yet"
+          cp comparison/results.json _site/compare/results.json || echo "No results yet"
+          
+          # Copy screenshot directories (for the report to reference)
+          cp -r comparison/baseline _site/compare/baseline || mkdir -p _site/compare/baseline
+          cp -r comparison/current _site/compare/current || mkdir -p _site/compare/current
+          cp -r comparison/diffs _site/compare/diffs || mkdir -p _site/compare/diffs
+          
+          # Create a simple index if no report exists yet
+          if [ ! -f "_site/compare/index.html" ]; then
+            echo '<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"><title>Comparison Report</title></head><body style="font-family:system-ui;padding:2rem;"><h1>No comparison report yet</h1><p>Run the baseline capture workflow first, then push changes to generate comparisons.</p></body></html>' > _site/compare/index.html
+          fi
+          
+          echo "Compare directory contents:"
+          ls -la _site/compare/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Comparison Summary
+        run: |
+          echo "## Visual Comparison Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "comparison/results.json" ]; then
+            echo "### Diff Percentages" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo '```json' >> $GITHUB_STEP_SUMMARY
+            cat comparison/results.json >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No comparison results (baseline may be missing)" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 Full report available in the comparison-artifacts branch" >> $GITHUB_STEP_SUMMARY
+
+  deploy:
+    needs: build-and-compare
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Deployment Summary
+        run: |
+          echo "## Deployment Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "🌐 **Site**: ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "📊 **Comparison Report**: ${{ steps.deployment.outputs.page_url }}compare/" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Next Steps" >> $GITHUB_STEP_SUMMARY
+          echo "1. Review the deployed site" >> $GITHUB_STEP_SUMMARY
+          echo "2. Check comparison report (mobile-friendly!)" >> $GITHUB_STEP_SUMMARY
+          echo "3. Update CLAUDE.md with findings" >> $GITHUB_STEP_SUMMARY

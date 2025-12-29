@@ -1,0 +1,66 @@
+{# 
+  Header Partial
+  
+  TODO: Extract from WordPress mirror
+  
+  Structure from original site:
+  - Logo (lex-logo-1.png)
+  - Navigation menu:
+    - HOME
+    - OVER MIJ
+    - BEHANDELING (dropdown)
+      - ALGEMEEN
+      - AANMELDING
+      - TARIEVEN
+      - CURSUSSEN
+    - WERKWIJZE (dropdown)
+      - MIJN WERKWIJZE
+      - WERK
+      - SPORT
+      - GEZONDHEID
+      - RUNNING THERAPIE
+    - CONTACT
+    - MAAK EEN AFSPRAAK (WhatsApp link)
+#}
+
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="logo">
+      <img src="/assets/images/lex-logo-1.png" alt="Lex Duvekot - GZ Psycholoog">
+    </a>
+    
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/over-mij/">Over Mij</a></li>
+        <li class="has-dropdown">
+          <a href="/behandeling/">Behandeling</a>
+          <ul class="dropdown">
+            <li><a href="/behandeling/">Algemeen</a></li>
+            <li><a href="/aanmelding/">Aanmelding</a></li>
+            <li><a href="/tarieven-en-vergoeding/">Tarieven</a></li>
+            <li><a href="/cursussen/">Cursussen</a></li>
+          </ul>
+        </li>
+        <li class="has-dropdown">
+          <a href="/werkwijze/">Werkwijze</a>
+          <ul class="dropdown">
+            <li><a href="/werkwijze/">Mijn Werkwijze</a></li>
+            <li><a href="/werk/">Werk</a></li>
+            <li><a href="/sport/">Sport</a></li>
+            <li><a href="/gezondheid/">Gezondheid</a></li>
+            <li><a href="/running-therapie/">Running Therapie</a></li>
+          </ul>
+        </li>
+        <li><a href="/contact/">Contact</a></li>
+        <li class="cta"><a href="https://wa.me/31626838558">Maak een Afspraak</a></li>
+      </ul>
+    </nav>
+    
+    <button class="mobile-menu-toggle" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>

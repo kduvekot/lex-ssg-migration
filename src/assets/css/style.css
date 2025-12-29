@@ -1,0 +1,50 @@
+/*
+ * Lex Duvekot - GZ Psycholoog
+ * Main Stylesheet
+ * 
+ * TODO: This file should be populated with CSS extracted from the WordPress mirror.
+ * 
+ * Steps:
+ * 1. Run the capture-baseline workflow to create the wget mirror
+ * 2. Extract CSS files from the mirror
+ * 3. Copy relevant styles here, removing WordPress-specific code
+ * 4. Test against baseline screenshots
+ * 
+ * Original CSS sources (from mirror):
+ * - /wp-content/themes/[theme]/style.css
+ * - /wp-content/plugins/[plugin]/css/*.css
+ * - Inline styles from page templates
+ */
+
+/* ========================================
+   Reset / Base Styles
+   ======================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ========================================
+   Placeholder styles - replace with original
+   ======================================== */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* TODO: Add original WordPress theme CSS here */

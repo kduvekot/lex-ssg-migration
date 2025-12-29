@@ -1,0 +1,58 @@
+# Decap CMS Configuration
+# https://decapcms.org/docs/configuration-options/
+
+backend:
+  name: github
+  repo: OWNER/lex-ssg-migration  # TODO: Update with actual repo
+  branch: main
+  base_url: https://api.netlify.com  # or use custom OAuth
+  # For GitHub Pages without Netlify Identity:
+  # name: git-gateway
+
+# Local development
+local_backend: true
+
+# Media settings
+media_folder: "src/assets/images"
+public_folder: "/assets/images"
+
+# Editorial workflow (optional - enables draft/review/publish)
+publish_mode: editorial_workflow
+
+# Site settings
+site_url: https://OWNER.github.io/lex-ssg-migration  # TODO: Update
+display_url: https://OWNER.github.io/lex-ssg-migration
+logo_url: /assets/images/lex-logo-1.png
+
+# Localization
+locale: 'nl'
+
+# Collections
+collections:
+  # Pages collection
+  - name: "pages"
+    label: "Pagina's"
+    folder: "src/content"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/page.njk" }
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Beschrijving", name: "description", widget: "text", required: false }
+      - { label: "URL", name: "permalink", widget: "string" }
+      - { label: "Inhoud", name: "body", widget: "markdown" }
+
+  # Site settings
+  - name: "settings"
+    label: "Instellingen"
+    files:
+      - label: "Site Informatie"
+        name: "site"
+        file: "src/_data/site.json"
+        fields:
+          - { label: "Site Titel", name: "title", widget: "string" }
+          - { label: "Ondertitel", name: "subtitle", widget: "string" }
+          - { label: "Beschrijving", name: "description", widget: "text" }
+          - { label: "E-mail", name: "email", widget: "string" }
+          - { label: "Telefoon", name: "phone", widget: "string" }
+          - { label: "WhatsApp nummer", name: "whatsapp", widget: "string" }
