@@ -19,24 +19,21 @@ Converting https://lex.virtual-efficiency.nl/ (WordPress) to Eleventy static sit
 **Last Updated**: 2025-12-29
 
 **Last Completed Task**:
-- Baseline validation revealed issues requiring re-capture
-- Updated capture-screenshots.js with fixes for:
-  - Lazy loading (scroll trigger)
-  - Divi animations (increased wait + force visibility)
-  - Missing CTA content in dark sections
+- Re-capture with animation/lazy-load fixes completed successfully
+- 74/75 screenshots now have complete content (CTAs, accordions visible)
+- kwaliteitsstatuut still blank - mirror cache issue, not PDF
 
 **Current Task**:
-- Re-run baseline capture workflow (trigger manually in Actions)
-- Validate new screenshots have complete content
-- Then begin page conversion
+- Re-run baseline capture with `force_refresh: true` to fix kwaliteitsstatuut
+- Then validate all 75 screenshots are complete
+- Begin page conversion
 
 **Blockers**:
-- **Baseline re-capture needed** - Run "Capture Baseline Screenshots" workflow
+- **kwaliteitsstatuut blank** - Need to run workflow with force_refresh=true
 
-**Known Issues Found in Previous Capture**:
-- kwaliteitsstatuut page was blank (all viewports) - likely PDF/iframe issue
-- Some pages had empty dark CTA sections (home page missing content)
-- Divi animations didn't complete before capture
+**Known Issues**:
+- kwaliteitsstatuut page blank due to stale mirror cache (page is normal HTML, not PDF)
+- Need to force refresh mirror to capture this page
 
 **Baseline Notes** (for conversion reference):
 - Footer links /betalingsvoorwaarden/ and /klachten/ return 404 on original site
