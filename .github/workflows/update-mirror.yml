@@ -211,21 +211,22 @@ jobs:
 
       - name: Push mirror to comparison-artifacts branch
         run: |
-          # Backup mirror to /tmp before switching branches
-          mkdir -p /tmp/backup
-          cp -r mirror /tmp/backup/
+          # Clone comparison-artifacts branch to separate directory
+          git clone --branch comparison-artifacts --single-branch \
+            https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git \
+            /tmp/artifacts 2>/dev/null || \
+            git clone https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/artifacts
 
-          git fetch origin comparison-artifacts || true
-          git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
+          cd /tmp/artifacts
 
-          # Only remove existing mirror folder, leave baseline untouched
+          # Create branch if it doesn't exist
+          git checkout comparison-artifacts 2>/dev/null || git checkout --orphan comparison-artifacts
+
+          # Remove old mirror, copy new one
           rm -rf mirror
-          git rm -rf mirror 2>/dev/null || true
+          cp -r $GITHUB_WORKSPACE/mirror .
 
-          # Copy new mirror from backup
-          cp -r /tmp/backup/mirror .
-
-          # Commit and push (only mirror changes)
+          # Commit and push
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add mirror/
