@@ -72,6 +72,34 @@ jobs:
           echo "Files captured:"
           find . -type f | wc -l
 
+      - name: Verify mirror has all required pages
+        run: |
+          echo "Checking mirror for all required URLs..."
+          MISSING=0
+          for url in $(cat urls.json | jq -r '.[].path'); do
+            # Convert URL path to file path (e.g., /over-mij/ -> over-mij/index.html)
+            if [ "$url" = "/" ]; then
+              FILE="mirror/index.html"
+            else
+              FILE="mirror${url}index.html"
+            fi
+            if [ ! -f "$FILE" ]; then
+              echo "❌ Missing: $FILE (from $url)"
+              MISSING=$((MISSING + 1))
+            else
+              SIZE=$(stat -f%z "$FILE" 2>/dev/null || stat -c%s "$FILE" 2>/dev/null)
+              if [ "$SIZE" -lt 1000 ]; then
+                echo "⚠️  Small file: $FILE ($SIZE bytes)"
+              else
+                echo "✓ Found: $FILE ($SIZE bytes)"
+              fi
+            fi
+          done
+          if [ $MISSING -gt 0 ]; then
+            echo ""
+            echo "⚠️  $MISSING pages missing from mirror - they may need manual fetching"
+          fi
+
       - name: Serve mirror locally
         run: |
           npm install -g http-server
