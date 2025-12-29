@@ -7,10 +7,10 @@ name: Capture Baseline Screenshots
 on:
   workflow_dispatch:
     inputs:
-      force_refresh:
-        description: 'Force refresh mirror even if cached'
+      use_mirror:
+        description: 'Use local mirror instead of live site (faster but may have stale content)'
         required: false
-        default: 'false'
+        default: false
         type: boolean
 
 permissions:
@@ -20,7 +20,7 @@ jobs:
   capture-baseline:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,18 +37,9 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install chromium
 
-      - name: Restore mirror cache
-        if: inputs.force_refresh != 'true'
-        id: cache-mirror
-        uses: actions/cache@v4
-        with:
-          path: mirror
-          key: site-mirror-${{ hashFiles('urls.json') }}
-          restore-keys: |
-            site-mirror-
-
+      # Mirror approach (optional - only if use_mirror is checked)
       - name: Create mirror with wget
-        if: steps.cache-mirror.outputs.cache-hit != 'true' || inputs.force_refresh == 'true'
+        if: ${{ inputs.use_mirror }}
         run: |
           mkdir -p mirror
           cd mirror
@@ -66,18 +57,18 @@ jobs:
             --random-wait \
             --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
             https://lex.virtual-efficiency.nl/ || true
-          
+
           echo "Mirror size:"
           du -sh .
           echo "Files captured:"
           find . -type f | wc -l
 
       - name: Verify mirror has all required pages
+        if: ${{ inputs.use_mirror }}
         run: |
           echo "Checking mirror for all required URLs..."
           MISSING=0
           for url in $(cat urls.json | jq -r '.[].path'); do
-            # Convert URL path to file path (e.g., /over-mij/ -> over-mij/index.html)
             if [ "$url" = "/" ]; then
               FILE="mirror/index.html"
             else
@@ -87,7 +78,7 @@ jobs:
               echo "❌ Missing: $FILE (from $url)"
               MISSING=$((MISSING + 1))
             else
-              SIZE=$(stat -f%z "$FILE" 2>/dev/null || stat -c%s "$FILE" 2>/dev/null)
+              SIZE=$(stat -c%s "$FILE" 2>/dev/null || stat -f%z "$FILE" 2>/dev/null)
               if [ "$SIZE" -lt 1000 ]; then
                 echo "⚠️  Small file: $FILE ($SIZE bytes)"
               else
@@ -97,22 +88,32 @@ jobs:
           done
           if [ $MISSING -gt 0 ]; then
             echo ""
-            echo "⚠️  $MISSING pages missing from mirror - they may need manual fetching"
+            echo "⚠️  $MISSING pages missing from mirror"
           fi
 
       - name: Serve mirror locally
+        if: ${{ inputs.use_mirror }}
         run: |
           npm install -g http-server
           cd mirror
           http-server -p 8080 &
           sleep 3
-          curl -s http://localhost:8080/ | head -20
 
       - name: Capture baseline screenshots
         run: |
           mkdir -p comparison/baseline
+
+          # Use live site by default, mirror only if explicitly requested
+          if [ "${{ inputs.use_mirror }}" = "true" ]; then
+            BASE_URL="http://localhost:8080"
+            echo "📸 Capturing from LOCAL MIRROR"
+          else
+            BASE_URL="https://lex.virtual-efficiency.nl"
+            echo "📸 Capturing from LIVE SITE"
+          fi
+
           node scripts/capture-screenshots.js \
-            --base-url="http://localhost:8080" \
+            --base-url="$BASE_URL" \
             --output-dir="comparison/baseline" \
             --source="original"
 
@@ -127,14 +128,14 @@ jobs:
         run: |
           git fetch origin comparison-artifacts || true
           git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
-          
+
           # Remove all existing files (clean slate for orphan branch)
           git rm -rf . || true
-          
+
           # Copy baseline screenshots
           mkdir -p baseline
           cp -r comparison/baseline/* baseline/ || true
-          
+
           # Commit and push
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -146,7 +147,11 @@ jobs:
         run: |
           echo "## Baseline Capture Complete" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Screenshots captured from: https://lex.virtual-efficiency.nl/" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ inputs.use_mirror }}" = "true" ]; then
+            echo "Source: Local mirror of https://lex.virtual-efficiency.nl/" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "Source: Live site https://lex.virtual-efficiency.nl/" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "Files:" >> $GITHUB_STEP_SUMMARY
           ls -la comparison/baseline/ >> $GITHUB_STEP_SUMMARY

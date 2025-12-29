@@ -1,0 +1,249 @@
+# .github/workflows/update-mirror.yml
+# Creates a clean, formatted mirror of the WordPress site for reference during conversion
+# Run manually via Actions tab → "Update Mirror" → "Run workflow"
+
+name: Update Mirror
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install formatting tools
+        run: |
+          npm install -g prettier js-beautify
+
+      - name: Create mirror with wget
+        run: |
+          mkdir -p mirror
+          cd mirror
+
+          echo "🕷️ Crawling site with wget..."
+          wget \
+            --mirror \
+            --convert-links \
+            --adjust-extension \
+            --page-requisites \
+            --no-parent \
+            --no-host-directories \
+            --reject "xmlrpc.php*,wp-login.php*,wp-admin*,feed*,*preview=true*,*.woff,*.woff2,*.ttf,*.eot" \
+            --timeout=30 \
+            --tries=3 \
+            --wait=1 \
+            --random-wait \
+            --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+            https://lex.virtual-efficiency.nl/ 2>&1 | tee wget.log || true
+
+          echo ""
+          echo "📊 Crawl complete"
+
+      - name: Explicitly fetch each URL from urls.json
+        run: |
+          echo "📥 Fetching specific URLs from urls.json..."
+          cd mirror
+
+          for url in $(cat ../urls.json | jq -r '.[].path'); do
+            FULL_URL="https://lex.virtual-efficiency.nl${url}"
+
+            if [ "$url" = "/" ]; then
+              OUTPUT_FILE="index.html"
+            else
+              # Create directory and fetch
+              DIR_PATH="${url%/}"
+              mkdir -p ".$DIR_PATH"
+              OUTPUT_FILE=".${url}index.html"
+            fi
+
+            echo "  Fetching: $FULL_URL"
+            wget -q --no-clobber \
+              --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+              -O "$OUTPUT_FILE.tmp" \
+              "$FULL_URL" 2>/dev/null || true
+
+            # Only replace if we got content
+            if [ -s "$OUTPUT_FILE.tmp" ]; then
+              mv "$OUTPUT_FILE.tmp" "$OUTPUT_FILE"
+              echo "    ✓ Saved: $OUTPUT_FILE"
+            else
+              rm -f "$OUTPUT_FILE.tmp"
+              echo "    ⚠ Already exists or failed: $OUTPUT_FILE"
+            fi
+          done
+
+      - name: Verify all required pages exist
+        run: |
+          echo ""
+          echo "🔍 Verifying mirror contents..."
+          cd mirror
+
+          FOUND=0
+          MISSING=0
+
+          for url in $(cat ../urls.json | jq -r '.[].path'); do
+            if [ "$url" = "/" ]; then
+              FILE="index.html"
+            else
+              FILE=".${url}index.html"
+            fi
+
+            if [ -f "$FILE" ]; then
+              SIZE=$(stat -c%s "$FILE" 2>/dev/null || stat -f%z "$FILE" 2>/dev/null)
+              echo "  ✓ $FILE ($SIZE bytes)"
+              FOUND=$((FOUND + 1))
+            else
+              echo "  ❌ MISSING: $FILE"
+              MISSING=$((MISSING + 1))
+            fi
+          done
+
+          echo ""
+          echo "📊 Results: $FOUND found, $MISSING missing"
+
+      - name: Pretty-print HTML files
+        run: |
+          echo ""
+          echo "✨ Formatting HTML files..."
+          cd mirror
+
+          find . -name "*.html" -type f | while read file; do
+            echo "  Formatting: $file"
+            # Use js-beautify for HTML (more lenient than prettier)
+            js-beautify --type html --indent-size 2 --wrap-line-length 120 \
+              -r "$file" 2>/dev/null || echo "    ⚠ Could not format $file"
+          done
+
+      - name: Pretty-print CSS files
+        run: |
+          echo ""
+          echo "✨ Formatting CSS files..."
+          cd mirror
+
+          find . -name "*.css" -type f | while read file; do
+            # Skip minified vendor files (too large)
+            SIZE=$(stat -c%s "$file" 2>/dev/null || stat -f%z "$file" 2>/dev/null)
+            if [ "$SIZE" -gt 500000 ]; then
+              echo "  Skipping (too large): $file"
+              continue
+            fi
+
+            echo "  Formatting: $file"
+            prettier --write --parser css "$file" 2>/dev/null || \
+              js-beautify --type css --indent-size 2 -r "$file" 2>/dev/null || \
+              echo "    ⚠ Could not format $file"
+          done
+
+      - name: Pretty-print JS files
+        run: |
+          echo ""
+          echo "✨ Formatting JS files..."
+          cd mirror
+
+          find . -name "*.js" -type f | while read file; do
+            # Skip minified vendor files (too large)
+            SIZE=$(stat -c%s "$file" 2>/dev/null || stat -f%z "$file" 2>/dev/null)
+            if [ "$SIZE" -gt 500000 ]; then
+              echo "  Skipping (too large): $file"
+              continue
+            fi
+
+            echo "  Formatting: $file"
+            prettier --write --parser babel "$file" 2>/dev/null || \
+              js-beautify --type js --indent-size 2 -r "$file" 2>/dev/null || \
+              echo "    ⚠ Could not format $file"
+          done
+
+      - name: Generate mirror manifest
+        run: |
+          cd mirror
+          echo "📋 Generating manifest..."
+
+          cat > manifest.json << 'MANIFEST'
+          {
+            "source": "https://lex.virtual-efficiency.nl/",
+            "created": "TIMESTAMP",
+            "files": {
+              "html": HTML_COUNT,
+              "css": CSS_COUNT,
+              "js": JS_COUNT,
+              "images": IMG_COUNT,
+              "total": TOTAL_COUNT
+            }
+          }
+          MANIFEST
+
+          # Replace placeholders
+          sed -i "s/TIMESTAMP/$(date -Iseconds)/" manifest.json
+          sed -i "s/HTML_COUNT/$(find . -name '*.html' | wc -l)/" manifest.json
+          sed -i "s/CSS_COUNT/$(find . -name '*.css' | wc -l)/" manifest.json
+          sed -i "s/JS_COUNT/$(find . -name '*.js' | wc -l)/" manifest.json
+          sed -i "s/IMG_COUNT/$(find . -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.gif' -o -name '*.svg' -o -name '*.webp' | wc -l)/" manifest.json
+          sed -i "s/TOTAL_COUNT/$(find . -type f | wc -l)/" manifest.json
+
+          cat manifest.json
+
+      - name: Calculate mirror size
+        run: |
+          echo ""
+          echo "📦 Mirror statistics:"
+          echo "  Total size: $(du -sh mirror | cut -f1)"
+          echo "  File count: $(find mirror -type f | wc -l)"
+          echo ""
+          echo "  By type:"
+          echo "    HTML: $(find mirror -name '*.html' | wc -l) files"
+          echo "    CSS:  $(find mirror -name '*.css' | wc -l) files"
+          echo "    JS:   $(find mirror -name '*.js' | wc -l) files"
+          echo "    Images: $(find mirror \( -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.gif' -o -name '*.svg' -o -name '*.webp' \) | wc -l) files"
+
+      - name: Push mirror to comparison-artifacts branch
+        run: |
+          git fetch origin comparison-artifacts || true
+          git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
+
+          # Keep existing baseline screenshots if they exist
+          mkdir -p /tmp/backup
+          cp -r baseline /tmp/backup/ 2>/dev/null || true
+
+          # Clean and copy new mirror
+          git rm -rf . || true
+
+          # Restore baseline screenshots
+          cp -r /tmp/backup/baseline . 2>/dev/null || mkdir -p baseline
+
+          # Copy mirror
+          cp -r mirror .
+
+          # Commit and push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Update mirror $(date +%Y-%m-%d)" || echo "No changes to commit"
+          git push origin comparison-artifacts --force
+
+      - name: Summary
+        run: |
+          echo "## Mirror Update Complete" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Source: https://lex.virtual-efficiency.nl/" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Files" >> $GITHUB_STEP_SUMMARY
+          echo "- HTML: $(find mirror -name '*.html' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- CSS: $(find mirror -name '*.css' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- JS: $(find mirror -name '*.js' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Images: $(find mirror \( -name '*.png' -o -name '*.jpg' -o -name '*.jpeg' -o -name '*.gif' -o -name '*.svg' -o -name '*.webp' \) | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Mirror stored in \`comparison-artifacts\` branch under \`/mirror/\`" >> $GITHUB_STEP_SUMMARY
