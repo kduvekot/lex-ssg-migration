@@ -211,16 +211,26 @@ jobs:
 
       - name: Push mirror to comparison-artifacts branch
         run: |
-          # Clone comparison-artifacts branch to separate directory
-          git clone --branch comparison-artifacts --single-branch \
-            https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git \
-            /tmp/artifacts 2>/dev/null || \
-            git clone https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git /tmp/artifacts
+          cd /tmp
+
+          # Try to clone comparison-artifacts branch
+          if git clone --branch comparison-artifacts --single-branch --depth 1 \
+              https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git \
+              artifacts 2>/dev/null; then
+            echo "✓ Cloned existing comparison-artifacts branch"
+          else
+            # Branch doesn't exist - create empty directory and init
+            echo "Creating new comparison-artifacts branch"
+            mkdir -p artifacts
+            cd artifacts
+            git init
+            git remote add origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+            git checkout --orphan comparison-artifacts
+            # Start with empty tree
+            cd /tmp
+          fi
 
           cd /tmp/artifacts
-
-          # Create branch if it doesn't exist
-          git checkout comparison-artifacts 2>/dev/null || git checkout --orphan comparison-artifacts
 
           # Remove old mirror, copy new one
           rm -rf mirror
