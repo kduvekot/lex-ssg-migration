@@ -52,6 +52,53 @@ jobs:
           echo ""
           echo "📊 Crawl complete"
 
+      - name: Clean up filenames (remove query strings)
+        run: |
+          echo ""
+          echo "🧹 Cleaning up filenames..."
+          cd mirror
+
+          # Find files with ? in the name and rename them
+          find . -type f -name '*\?*' | while read file; do
+            # Remove everything after ? in filename
+            newname=$(echo "$file" | sed 's/\?.*$//')
+
+            # Handle case where file might have extension after query string
+            # e.g., "file.js?ver=123" -> "file.js"
+            # or "file.css?ver=123.css" -> "file.css"
+            if [[ "$file" =~ \.(css|js)\?.*\.(css|js)$ ]]; then
+              # Has double extension, keep first one
+              newname=$(echo "$file" | sed 's/\?.*$//')
+            fi
+
+            if [ "$file" != "$newname" ] && [ ! -f "$newname" ]; then
+              echo "  Renaming: $file -> $newname"
+              mv "$file" "$newname"
+            elif [ "$file" != "$newname" ]; then
+              echo "  Skipping (target exists): $file"
+              rm "$file"
+            fi
+          done
+
+          # Also remove index.html?p=XXX files (WordPress parameter pages)
+          find . -type f -name 'index.html\?p=*' -delete 2>/dev/null || true
+
+          echo "  ✓ Cleanup complete"
+
+      - name: Update references in HTML/CSS files
+        run: |
+          echo ""
+          echo "🔗 Updating file references..."
+          cd mirror
+
+          # Remove query strings from references in HTML files
+          find . -name "*.html" -type f -exec sed -i 's/\?ver=[^"'\'']*//g' {} \;
+
+          # Remove query strings from references in CSS files
+          find . -name "*.css" -type f -exec sed -i 's/\?ver=[^)"\x27]*//g' {} \;
+
+          echo "  ✓ References updated"
+
       - name: Explicitly fetch each URL from urls.json
         run: |
           echo "📥 Fetching specific URLs from urls.json..."
