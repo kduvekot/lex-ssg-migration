@@ -102,7 +102,7 @@ async function captureScreenshots() {
         // Wait for fonts to load
         await page.waitForTimeout(1000);
 
-        // Scroll down to trigger lazy loading, then back to top
+        // Scroll down incrementally to trigger lazy loading
         await page.evaluate(async () => {
           await new Promise((resolve) => {
             let totalHeight = 0;
@@ -112,11 +112,21 @@ async function captureScreenshots() {
               totalHeight += distance;
               if (totalHeight >= document.body.scrollHeight) {
                 clearInterval(timer);
-                window.scrollTo(0, 0);
                 resolve();
               }
             }, 100);
           });
+        });
+
+        // Explicitly scroll to absolute bottom (footer) and wait
+        await page.evaluate(() => {
+          window.scrollTo(0, document.body.scrollHeight);
+        });
+        await page.waitForTimeout(500);
+
+        // Scroll back to top
+        await page.evaluate(() => {
+          window.scrollTo(0, 0);
         });
 
         // Wait for Divi animations to complete
