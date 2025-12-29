@@ -14,21 +14,22 @@ Converting https://lex.virtual-efficiency.nl/ (WordPress) to Eleventy static sit
 
 ## Current Status
 
-**Phase**: [✓] Setup → [▶] Baseline → [ ] Conversion → [ ] Refinement → [ ] CMS → [ ] Done
+**Phase**: [✓] Setup → [✓] Baseline → [▶] Conversion → [ ] Refinement → [ ] CMS → [ ] Done
 
 **Last Updated**: 2025-12-29
 
 **Last Completed Task**:
-- Generated package-lock.json and committed to main
-- Project scaffold verified with Eleventy 3.1.2
-- Bootstrap script configured and tested
+- Fixed workflow permissions issue (added `contents: write`)
+- Baseline screenshots captured successfully (75 screenshots, 15 pages, 5 viewports each)
+- All pages from urls.json captured in comparison-artifacts branch
 
 **Current Task**:
-- Waiting for "Capture Baseline Screenshots" workflow to complete
-- Once baseline is captured, begin page conversion starting with high-priority pages
+- Begin page conversion starting with high-priority pages
+- Extract CSS/JS/images from WordPress mirror
+- Implement page layouts matching baseline screenshots
 
 **Blockers**:
-- None - baseline workflow is running
+- None - ready to start conversion!
 
 ---
 
