@@ -211,21 +211,25 @@ jobs:
 
       - name: Push mirror to comparison-artifacts branch
         run: |
+          # Backup mirror and baseline to /tmp before switching branches
+          mkdir -p /tmp/backup
+          cp -r mirror /tmp/backup/
+
           git fetch origin comparison-artifacts || true
           git checkout comparison-artifacts || git checkout --orphan comparison-artifacts
 
           # Keep existing baseline screenshots if they exist
-          mkdir -p /tmp/backup
           cp -r baseline /tmp/backup/ 2>/dev/null || true
 
-          # Clean and copy new mirror
+          # Clean working directory completely
           git rm -rf . || true
+          rm -rf * .* 2>/dev/null || true
 
           # Restore baseline screenshots
           cp -r /tmp/backup/baseline . 2>/dev/null || mkdir -p baseline
 
-          # Copy mirror
-          cp -r mirror .
+          # Copy mirror from backup
+          cp -r /tmp/backup/mirror .
 
           # Commit and push
           git config user.name "github-actions[bot]"
