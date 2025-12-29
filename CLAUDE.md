@@ -19,9 +19,11 @@ Converting https://lex.virtual-efficiency.nl/ (WordPress) to Eleventy static sit
 **Last Updated**: 2025-12-29
 
 **Last Completed Task**:
-- Fixed workflow permissions issue (added `contents: write`)
-- Baseline screenshots captured successfully (75 screenshots, 15 pages, 5 viewports each)
-- All pages from urls.json captured in comparison-artifacts branch
+- Baseline screenshots validated and approved
+- 75 screenshots (15 pages × 5 viewports) confirmed ready for comparison
+- Cookie banners hidden correctly, all content loaded properly
+- "LEES MEER" buttons confirmed as navigation links (sub-pages already captured)
+- Dark CTA sections are intentional design elements
 
 **Current Task**:
 - Begin page conversion starting with high-priority pages
@@ -30,6 +32,12 @@ Converting https://lex.virtual-efficiency.nl/ (WordPress) to Eleventy static sit
 
 **Blockers**:
 - None - ready to start conversion!
+
+**Baseline Notes** (for conversion reference):
+- Footer links /betalingsvoorwaarden/ and /klachten/ return 404 on original site
+- Dropdown menus (BEHANDELING, WERKWIJZE) have sub-pages already captured
+- Mobile hamburger menu state not captured (optional enhancement if needed later)
+- Site uses Divi theme with blue/orange/white color scheme
 
 ---
 
