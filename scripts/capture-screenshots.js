@@ -94,13 +94,49 @@ async function captureScreenshots() {
         const page = await context.newPage();
         
         // Navigate and wait for content
-        await page.goto(fullUrl, { 
+        await page.goto(fullUrl, {
           waitUntil: 'networkidle',
-          timeout: 30000 
+          timeout: 30000
         });
 
         // Wait for fonts to load
         await page.waitForTimeout(1000);
+
+        // Scroll down to trigger lazy loading, then back to top
+        await page.evaluate(async () => {
+          await new Promise((resolve) => {
+            let totalHeight = 0;
+            const distance = 300;
+            const timer = setInterval(() => {
+              window.scrollBy(0, distance);
+              totalHeight += distance;
+              if (totalHeight >= document.body.scrollHeight) {
+                clearInterval(timer);
+                window.scrollTo(0, 0);
+                resolve();
+              }
+            }, 100);
+          });
+        });
+
+        // Wait for Divi animations to complete
+        await page.waitForTimeout(2000);
+
+        // Force all Divi animated elements to be visible
+        await page.evaluate(() => {
+          // Make all animated elements visible immediately
+          document.querySelectorAll('[class*="et_pb_"]').forEach(el => {
+            el.style.opacity = '1';
+            el.style.visibility = 'visible';
+            el.style.transform = 'none';
+          });
+
+          // Force Divi sections to be visible
+          document.querySelectorAll('.et_pb_section, .et_pb_row, .et_pb_column, .et_pb_module').forEach(el => {
+            el.style.opacity = '1';
+            el.style.visibility = 'visible';
+          });
+        });
 
         // Hide cookie consent banners and other overlays
         await page.evaluate(() => {
