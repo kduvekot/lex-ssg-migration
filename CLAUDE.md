@@ -19,17 +19,30 @@ Converting https://lex.virtual-efficiency.nl/ (WordPress) to Eleventy static sit
 **Last Updated**: 2025-12-29
 
 **Last Completed Task**:
-- Fixed workflow permissions issue (added `contents: write`)
-- Baseline screenshots captured successfully (75 screenshots, 15 pages, 5 viewports each)
-- All pages from urls.json captured in comparison-artifacts branch
+- Baseline validation revealed issues requiring re-capture
+- Updated capture-screenshots.js with fixes for:
+  - Lazy loading (scroll trigger)
+  - Divi animations (increased wait + force visibility)
+  - Missing CTA content in dark sections
 
 **Current Task**:
-- Begin page conversion starting with high-priority pages
-- Extract CSS/JS/images from WordPress mirror
-- Implement page layouts matching baseline screenshots
+- Re-run baseline capture workflow (trigger manually in Actions)
+- Validate new screenshots have complete content
+- Then begin page conversion
 
 **Blockers**:
-- None - ready to start conversion!
+- **Baseline re-capture needed** - Run "Capture Baseline Screenshots" workflow
+
+**Known Issues Found in Previous Capture**:
+- kwaliteitsstatuut page was blank (all viewports) - likely PDF/iframe issue
+- Some pages had empty dark CTA sections (home page missing content)
+- Divi animations didn't complete before capture
+
+**Baseline Notes** (for conversion reference):
+- Footer links /betalingsvoorwaarden/ and /klachten/ return 404 on original site
+- Dropdown menus (BEHANDELING, WERKWIJZE) have sub-pages already captured
+- Mobile hamburger menu state not captured (optional enhancement if needed later)
+- Site uses Divi theme with blue/orange/white color scheme
 
 ---
 
