@@ -1,0 +1,1956 @@
+--2025-12-30 13:02:44--  https://lex.virtual-efficiency.nl/
+Resolving lex.virtual-efficiency.nl (lex.virtual-efficiency.nl)... 141.138.168.127, 2a03:3c00:a002:182::1007
+Connecting to lex.virtual-efficiency.nl (lex.virtual-efficiency.nl)|141.138.168.127|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  169M
+   150K ..........                                              237M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:02:46 (510 KB/s) - ‘index.html’ saved [164361]
+
+Loading robots.txt; please ignore errors.
+--2025-12-30 13:02:47--  https://lex.virtual-efficiency.nl/robots.txt
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                        74.7M=0s
+
+2025-12-30 13:02:48 (74.7 MB/s) - ‘robots.txt’ saved [179]
+
+--2025-12-30 13:02:49--  https://lex.virtual-efficiency.nl/feed/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/rss+xml]
+Saving to: ‘feed/index.html’
+
+     0K .                                                       352M=0s
+
+2025-12-30 13:02:49 (352 MB/s) - ‘feed/index.html’ saved [1112]
+
+--2025-12-30 13:02:50--  https://lex.virtual-efficiency.nl/comments/feed/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/rss+xml]
+Saving to: ‘comments/feed/index.html’
+
+     0K                                                         268M=0s
+
+2025-12-30 13:02:50 (268 MB/s) - ‘comments/feed/index.html’ saved [770]
+
+--2025-12-30 13:02:51--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2F’
+
+     0K ..                                                      578M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:02:51 (578 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2F’ saved [2212]
+
+--2025-12-30 13:02:52--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2F&format=xml’
+
+     0K ..                                                      885M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:02:53 (885 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2F&format=xml’ saved [2363]
+
+--2025-12-30 13:02:53--  https://lex.virtual-efficiency.nl/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765950887
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 2782 (2.7K) [text/css]
+Saving to: ‘wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765950887.css’
+
+     0K ..                                                    100% 1.20G=0s
+
+2025-12-30 13:02:53 (1.20 GB/s) - ‘wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765950887.css’ saved [2782/2782]
+
+--2025-12-30 13:02:54--  https://lex.virtual-efficiency.nl/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9427 (9.2K) [image/gif]
+Saving to: ‘wp-content/themes/Divi/includes/builder/styles/images/preloader.gif’
+
+     0K .........                                             100% 3.25G=0s
+
+2025-12-30 13:02:54 (3.25 GB/s) - ‘wp-content/themes/Divi/includes/builder/styles/images/preloader.gif’ saved [9427/9427]
+
+--2025-12-30 13:02:55--  https://lex.virtual-efficiency.nl/wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 30889 (30K) [image/svg+xml]
+Saving to: ‘wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg’
+
+     0K .......... .......... ..........                      100%  333M=0s
+
+2025-12-30 13:02:56 (333 MB/s) - ‘wp-content/themes/Divi/core/admin/fonts/modules/social/modules.svg’ saved [30889/30889]
+
+--2025-12-30 13:02:57--  https://lex.virtual-efficiency.nl/wp-content/et-cache/9/et-divi-dynamic-tb-71857-tb-20879-9.css?ver=1766233711
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/9/et-divi-dynamic-tb-71857-tb-20879-9.css?ver=1766233711.css’
+
+     0K .......... ....                                       100% 4.40G=0s
+
+2025-12-30 13:02:58 (4.40 GB/s) - ‘wp-content/et-cache/9/et-divi-dynamic-tb-71857-tb-20879-9.css?ver=1766233711.css’ saved [14961/14961]
+
+--2025-12-30 13:02:59--  https://lex.virtual-efficiency.nl/wp-includes/js/jquery/jquery.min.js?ver=3.7.1
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 87553 (86K) [application/javascript]
+Saving to: ‘wp-includes/js/jquery/jquery.min.js?ver=3.7.1’
+
+     0K .......... .......... .......... .......... .......... 58%  319K 0s
+    50K .......... .......... .......... .....                100%  249M=0.2s
+
+2025-12-30 13:02:59 (544 KB/s) - ‘wp-includes/js/jquery/jquery.min.js?ver=3.7.1’ saved [87553/87553]
+
+--2025-12-30 13:03:00--  https://lex.virtual-efficiency.nl/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 13577 (13K) [application/javascript]
+Saving to: ‘wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1’
+
+     0K .......... ...                                        100% 5.42G=0s
+
+2025-12-30 13:03:01 (5.42 GB/s) - ‘wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1’ saved [13577/13577]
+
+--2025-12-30 13:03:02--  https://lex.virtual-efficiency.nl/wp-json/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/index.html’
+
+     0K .......... .......... .......... .......... ..........  317K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  137M
+   150K .......... .......... .......... .......... ..........  152M
+   200K .......... .......... .......... ......                 235K=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:03 (501 KB/s) - ‘wp-json/index.html’ saved [242422]
+
+--2025-12-30 13:03:04--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/9
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/9’
+
+     0K .......... ..........                                   260M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:04 (260 MB/s) - ‘wp-json/wp/v2/pages/9’ saved [21141]
+
+--2025-12-30 13:03:06--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/cropped-lex-logo-1-32x32.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1523 (1.5K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/cropped-lex-logo-1-32x32.png’
+
+     0K .                                                     100%  736M=0s
+
+2025-12-30 13:03:06 (736 MB/s) - ‘wp-content/uploads/2025/10/cropped-lex-logo-1-32x32.png’ saved [1523/1523]
+
+--2025-12-30 13:03:07--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/cropped-lex-logo-1-192x192.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 19508 (19K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/cropped-lex-logo-1-192x192.png’
+
+     0K .......... .........                                  100%  222M=0s
+
+2025-12-30 13:03:07 (222 MB/s) - ‘wp-content/uploads/2025/10/cropped-lex-logo-1-192x192.png’ saved [19508/19508]
+
+--2025-12-30 13:03:09--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/cropped-lex-logo-1-180x180.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17806 (17K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/cropped-lex-logo-1-180x180.png’
+
+     0K .......... .......                                    100%  190M=0s
+
+2025-12-30 13:03:09 (190 MB/s) - ‘wp-content/uploads/2025/10/cropped-lex-logo-1-180x180.png’ saved [17806/17806]
+
+--2025-12-30 13:03:09--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/sport.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22706 (22K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/sport.jpg’
+
+     0K .......... .......... ..                              100%  245M=0s
+
+2025-12-30 13:03:10 (245 MB/s) - ‘wp-content/uploads/2025/12/sport.jpg’ saved [22706/22706]
+
+--2025-12-30 13:03:10--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/gezondheid.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 25636 (25K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/gezondheid.jpg’
+
+     0K .......... .......... .....                           100%  263M=0s
+
+2025-12-30 13:03:11 (263 MB/s) - ‘wp-content/uploads/2025/12/gezondheid.jpg’ saved [25636/25636]
+
+--2025-12-30 13:03:11--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/werk.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 105021 (103K) [image/png]
+Saving to: ‘wp-content/uploads/2025/12/werk.png’
+
+     0K .......... .......... .......... .......... .......... 48%  318K 0s
+    50K .......... .......... .......... .......... .......... 97%  318K 0s
+   100K ..                                                    100% 4.77T=0.3s
+
+2025-12-30 13:03:12 (326 KB/s) - ‘wp-content/uploads/2025/12/werk.png’ saved [105021/105021]
+
+--2025-12-30 13:03:13--  https://lex.virtual-efficiency.nl/wp-content/et-cache/9/et-core-unified-9.min.css?ver=1766233711
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/9/et-core-unified-9.min.css?ver=1766233711.css’
+
+     0K .....                                                 100% 3.03G=0s
+
+2025-12-30 13:03:13 (3.03 GB/s) - ‘wp-content/et-cache/9/et-core-unified-9.min.css?ver=1766233711.css’ saved [5180/5180]
+
+--2025-12-30 13:03:14--  https://lex.virtual-efficiency.nl/wp-content/et-cache/9/et-core-unified-tb-71857-tb-20879-deferred-9.min.css?ver=1766233711
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/9/et-core-unified-tb-71857-tb-20879-deferred-9.min.css?ver=1766233711.css’
+
+     0K .........                                             100% 4.25G=0s
+
+2025-12-30 13:03:15 (4.25 GB/s) - ‘wp-content/et-cache/9/et-core-unified-tb-71857-tb-20879-deferred-9.min.css?ver=1766233711.css’ saved [9563/9563]
+
+--2025-12-30 13:03:16--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-logo-1.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 35658 (35K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/lex-logo-1.png’
+
+     0K .......... .......... .......... ....                 100%  237M=0s
+
+2025-12-30 13:03:16 (237 MB/s) - ‘wp-content/uploads/2025/10/lex-logo-1.png’ saved [35658/35658]
+
+--2025-12-30 13:03:17--  https://lex.virtual-efficiency.nl/over-mij/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘over-mij/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... .......... 68.0M
+   150K .......... ..                                           204M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:18 (515 KB/s) - ‘over-mij/index.html’ saved [166027]
+
+--2025-12-30 13:03:19--  https://lex.virtual-efficiency.nl/behandeling/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘behandeling/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... ..........  168M
+   150K .......                                                13.9T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:20 (501 KB/s) - ‘behandeling/index.html’ saved [161222]
+
+--2025-12-30 13:03:21--  https://lex.virtual-efficiency.nl/aanmelding/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘aanmelding/index.html’
+
+     0K .......... .......... .......... .......... ..........  317K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  206M
+   150K ......                                                 12.6T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:23 (497 KB/s) - ‘aanmelding/index.html’ saved [160542]
+
+--2025-12-30 13:03:24--  https://lex.virtual-efficiency.nl/tarieven-en-vergoeding/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tarieven-en-vergoeding/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  113M
+   150K .......... .....                                        152M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:25 (526 KB/s) - ‘tarieven-en-vergoeding/index.html’ saved [169466]
+
+--2025-12-30 13:03:26--  https://lex.virtual-efficiency.nl/cursussen/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘cursussen/index.html’
+
+     0K .......... .......... .......... .......... ..........  159K
+    50K .......... .......... .......... .......... ..........  102M
+   100K .......... .......... .......... .......... ..........  319K
+   150K ..                                                     5.00T=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:27 (324 KB/s) - ‘cursussen/index.html’ saved [156347]
+
+--2025-12-30 13:03:27--  https://lex.virtual-efficiency.nl/werkwijze/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘werkwijze/index.html’
+
+     0K .......... .......... .......... .......... ..........  159K
+    50K .......... .......... .......... .......... ..........  119M
+   100K .......... .......... .......... .......... ..........  319K
+   150K .......... ...                                          142M=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:28 (348 KB/s) - ‘werkwijze/index.html’ saved [167910]
+
+--2025-12-30 13:03:30--  https://lex.virtual-efficiency.nl/werk/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘werk/index.html’
+
+     0K .......... .......... .......... .......... ..........  319K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  185M
+   150K ......                                                 12.8T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:31 (499 KB/s) - ‘werk/index.html’ saved [160621]
+
+--2025-12-30 13:03:32--  https://lex.virtual-efficiency.nl/sport/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘sport/index.html’
+
+     0K .......... .......... .......... .......... ..........  159K
+    50K .......... .......... .......... .......... ..........  194M
+   100K .......... .......... .......... .......... ..........  318K
+   150K ......                                                 12.3T=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:33 (332 KB/s) - ‘sport/index.html’ saved [160387]
+
+--2025-12-30 13:03:34--  https://lex.virtual-efficiency.nl/gezondheid/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘gezondheid/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  154M
+   150K .......                                                14.4T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:35 (502 KB/s) - ‘gezondheid/index.html’ saved [161497]
+
+--2025-12-30 13:03:36--  https://lex.virtual-efficiency.nl/running-therapie/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘running-therapie/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... ..........  145M
+   150K .....                                                  10.6T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:38 (495 KB/s) - ‘running-therapie/index.html’ saved [159431]
+
+--2025-12-30 13:03:40--  https://lex.virtual-efficiency.nl/contact/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘contact/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... ..........  167M
+   150K .......... .......... .......... .......... ..........  172M
+   200K .......... ...                                         83.3K=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:41 (452 KB/s) - ‘contact/index.html’ saved [218165]
+
+--2025-12-30 13:03:42--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home-v2.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 55813 (55K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home-v2.jpg’
+
+     0K .......... .......... .......... .......... .......... 91%  318K 0s
+    50K ....                                                  100% 8.39T=0.2s
+
+2025-12-30 13:03:43 (347 KB/s) - ‘wp-content/uploads/2025/10/lex-home-v2.jpg’ saved [55813/55813]
+
+--2025-12-30 13:03:43--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home-v2-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 38449 (38K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home-v2-480x567.jpg’
+
+     0K .......... .......... .......... .......              100%  195M=0s
+
+2025-12-30 13:03:44 (195 MB/s) - ‘wp-content/uploads/2025/10/lex-home-v2-480x567.jpg’ saved [38449/38449]
+
+--2025-12-30 13:03:45--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home-6.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 26762 (26K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home-6.jpg’
+
+     0K .......... .......... ......                          100%  267M=0s
+
+2025-12-30 13:03:45 (267 MB/s) - ‘wp-content/uploads/2025/10/lex-home-6.jpg’ saved [26762/26762]
+
+--2025-12-30 13:03:46--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home-6-257x300.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17766 (17K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home-6-257x300.jpg’
+
+     0K .......... .......                                    100%  215M=0s
+
+2025-12-30 13:03:47 (215 MB/s) - ‘wp-content/uploads/2025/10/lex-home-6-257x300.jpg’ saved [17766/17766]
+
+--2025-12-30 13:03:47--  https://lex.virtual-efficiency.nl/wp-content/uploads/2023/02/elements2-1.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1033 (1.0K) [image/png]
+Saving to: ‘wp-content/uploads/2023/02/elements2-1.png’
+
+     0K .                                                     100%  572M=0s
+
+2025-12-30 13:03:48 (572 MB/s) - ‘wp-content/uploads/2023/02/elements2-1.png’ saved [1033/1033]
+
+--2025-12-30 13:03:48--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/Betalingsvoorwaarden-LVVP.pdf
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 52834 (52K) [application/pdf]
+Saving to: ‘wp-content/uploads/2025/12/Betalingsvoorwaarden-LVVP.pdf’
+
+     0K .......... .......... .......... .......... .......... 96%  319K 0s
+    50K .                                                     100% 2.97T=0.2s
+
+2025-12-30 13:03:49 (329 KB/s) - ‘wp-content/uploads/2025/12/Betalingsvoorwaarden-LVVP.pdf’ saved [52834/52834]
+
+--2025-12-30 13:03:50--  https://lex.virtual-efficiency.nl/privacy/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/privacy-cookies/ [following]
+--2025-12-30 13:03:52--  https://lex.virtual-efficiency.nl/privacy-cookies/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘privacy/index.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  106M
+   150K .......... .......                                      189M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:53 (532 KB/s) - ‘privacy/index.html’ saved [171588]
+
+--2025-12-30 13:03:54--  https://lex.virtual-efficiency.nl/disclaimer/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘disclaimer/index.html’
+
+     0K .......... .......... .......... .......... ..........  159K
+    50K .......... .......... .......... .......... ..........  130M
+   100K .......... .......... .......... .......... ..........  318K
+   150K .......... ...                                          151M=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:55 (346 KB/s) - ‘disclaimer/index.html’ saved [167496]
+
+--2025-12-30 13:03:56--  https://lex.virtual-efficiency.nl/kwaliteitsstatuut
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/kwaliteitsstatuut/ [following]
+--2025-12-30 13:03:57--  https://lex.virtual-efficiency.nl/kwaliteitsstatuut/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘kwaliteitsstatuut.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  148M
+   150K .......... .                                            162M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:03:58 (512 KB/s) - ‘kwaliteitsstatuut.html’ saved [164973]
+
+--2025-12-30 13:04:00--  https://lex.virtual-efficiency.nl/wp-content/themes/Divi/js/scripts.min.js?ver=4.27.5
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 274461 (268K) [application/javascript]
+Saving to: ‘wp-content/themes/Divi/js/scripts.min.js?ver=4.27.5’
+
+     0K .......... .......... .......... .......... .......... 18%  319K 1s
+    50K .......... .......... .......... .......... .......... 37%  319K 1s
+   100K .......... .......... .......... .......... .......... 55% 98.8M 0s
+   150K .......... .......... .......... .......... .......... 74%  106M 0s
+   200K .......... .......... .......... .......... .......... 93%  320K 0s
+   250K .......... ........                                   100%  207M=0.5s
+
+2025-12-30 13:04:01 (569 KB/s) - ‘wp-content/themes/Divi/js/scripts.min.js?ver=4.27.5’ saved [274461/274461]
+
+--2025-12-30 13:04:01--  https://lex.virtual-efficiency.nl/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.5
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 3349 (3.3K) [application/javascript]
+Saving to: ‘wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.5’
+
+     0K ...                                                   100% 1.23G=0s
+
+2025-12-30 13:04:02 (1.23 GB/s) - ‘wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?ver=4.27.5’ saved [3349/3349]
+
+--2025-12-30 13:04:03--  https://lex.virtual-efficiency.nl/wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.5
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1343 (1.3K) [application/javascript]
+Saving to: ‘wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.5’
+
+     0K .                                                     100%  954M=0s
+
+2025-12-30 13:04:03 (954 MB/s) - ‘wp-content/themes/Divi/core/admin/js/common.js?ver=4.27.5’ saved [1343/1343]
+
+--2025-12-30 13:04:04--  https://lex.virtual-efficiency.nl/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1765950888
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 40647 (40K) [application/javascript]
+Saving to: ‘wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1765950888’
+
+     0K .......... .......... .......... .........            100%  245M=0s
+
+2025-12-30 13:04:04 (245 MB/s) - ‘wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js?ver=1765950888’ saved [40647/40647]
+
+--2025-12-30 13:04:05--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F’
+
+     0K ..                                                      755M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:05 (755 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F’ saved [2244]
+
+--2025-12-30 13:04:06--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F&format=xml’
+
+     0K ..                                                      692M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:07 (692 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fover-mij%2F&format=xml’ saved [2393]
+
+--2025-12-30 13:04:07--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/71253
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/71253’
+
+     0K .......... ..........                                   282M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:08 (282 MB/s) - ‘wp-json/wp/v2/pages/71253’ saved [20981]
+
+--2025-12-30 13:04:09--  https://lex.virtual-efficiency.nl/?p=71253
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/over-mij/ [following]
+--2025-12-30 13:04:11--  https://lex.virtual-efficiency.nl/over-mij/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=71253.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  143M
+   150K .......... ..                                           211M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:12 (515 KB/s) - ‘index.html?p=71253.html’ saved [166027]
+
+--2025-12-30 13:04:13--  https://lex.virtual-efficiency.nl/wp-content/et-cache/71253/et-core-unified-71253.min.css?ver=1766420439
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/71253/et-core-unified-71253.min.css?ver=1766420439.css’
+
+     0K .....                                                 100% 2.53G=0s
+
+2025-12-30 13:04:13 (2.53 GB/s) - ‘wp-content/et-cache/71253/et-core-unified-71253.min.css?ver=1766420439.css’ saved [5180/5180]
+
+--2025-12-30 13:04:15--  https://lex.virtual-efficiency.nl/wp-content/et-cache/71253/et-core-unified-tb-71857-tb-20879-deferred-71253.min.css?ver=1766420439
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356 (1.3K) [text/css]
+Saving to: ‘wp-content/et-cache/71253/et-core-unified-tb-71857-tb-20879-deferred-71253.min.css?ver=1766420439.css’
+
+     0K .                                                     100% 1.10G=0s
+
+2025-12-30 13:04:15 (1.10 GB/s) - ‘wp-content/et-cache/71253/et-core-unified-tb-71857-tb-20879-deferred-71253.min.css?ver=1766420439.css’ saved [1356/1356]
+
+--2025-12-30 13:04:16--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-duvekot.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54234 (53K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/lex-duvekot.png’
+
+     0K .......... .......... .......... .......... .......... 94%  318K 0s
+    50K ..                                                    100% 5.52T=0.2s
+
+2025-12-30 13:04:17 (337 KB/s) - ‘wp-content/uploads/2025/10/lex-duvekot.png’ saved [54234/54234]
+
+--2025-12-30 13:04:18--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-duvekot-150x150.png
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 31322 (31K) [image/png]
+Saving to: ‘wp-content/uploads/2025/10/lex-duvekot-150x150.png’
+
+     0K .......... .......... ..........                      100%  245M=0s
+
+2025-12-30 13:04:18 (245 MB/s) - ‘wp-content/uploads/2025/10/lex-duvekot-150x150.png’ saved [31322/31322]
+
+--2025-12-30 13:04:18--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F’
+
+     0K ..                                                      670M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:19 (670 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F’ saved [2259]
+
+--2025-12-30 13:04:19--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F&format=xml’
+
+     0K ..                                                      721M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:20 (721 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fbehandeling%2F&format=xml’ saved [2408]
+
+--2025-12-30 13:04:20--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88799/et-divi-dynamic-tb-71857-tb-20879-88799.css?ver=1766420502
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88799/et-divi-dynamic-tb-71857-tb-20879-88799.css?ver=1766420502.css’
+
+     0K .......... ....                                       100% 6.41G=0s
+
+2025-12-30 13:04:21 (6.41 GB/s) - ‘wp-content/et-cache/88799/et-divi-dynamic-tb-71857-tb-20879-88799.css?ver=1766420502.css’ saved [14961/14961]
+
+--2025-12-30 13:04:21--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88799
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88799’
+
+     0K .......... .......... ........                          296M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:22 (296 MB/s) - ‘wp-json/wp/v2/pages/88799’ saved [29668]
+
+--2025-12-30 13:04:23--  https://lex.virtual-efficiency.nl/?p=88799
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/behandeling/ [following]
+--2025-12-30 13:04:24--  https://lex.virtual-efficiency.nl/behandeling/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88799.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  141M
+   150K .......                                                13.9T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:25 (501 KB/s) - ‘index.html?p=88799.html’ saved [161222]
+
+--2025-12-30 13:04:26--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88799/et-core-unified-88799.min.css?ver=1766420502
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88799/et-core-unified-88799.min.css?ver=1766420502.css’
+
+     0K .....                                                 100% 3.11G=0s
+
+2025-12-30 13:04:27 (3.11 GB/s) - ‘wp-content/et-cache/88799/et-core-unified-88799.min.css?ver=1766420502.css’ saved [5180/5180]
+
+--2025-12-30 13:04:27--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88799/et-core-unified-tb-71857-tb-20879-deferred-88799.min.css?ver=1766420502
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88799/et-core-unified-tb-71857-tb-20879-deferred-88799.min.css?ver=1766420502.css’
+
+     0K .........                                             100% 5.29G=0s
+
+2025-12-30 13:04:28 (5.29 GB/s) - ‘wp-content/et-cache/88799/et-core-unified-tb-71857-tb-20879-deferred-88799.min.css?ver=1766420502.css’ saved [9563/9563]
+
+--2025-12-30 13:04:28--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F’
+
+     0K ..                                                      553M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:29 (553 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F’ saved [2254]
+
+--2025-12-30 13:04:30--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F&format=xml’
+
+     0K ..                                                      811M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:30 (811 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Faanmelding%2F&format=xml’ saved [2403]
+
+--2025-12-30 13:04:31--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88750/et-divi-dynamic-tb-71857-tb-20879-88750.css?ver=1766420484
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88750/et-divi-dynamic-tb-71857-tb-20879-88750.css?ver=1766420484.css’
+
+     0K .......... ....                                       100% 3.93G=0s
+
+2025-12-30 13:04:31 (3.93 GB/s) - ‘wp-content/et-cache/88750/et-divi-dynamic-tb-71857-tb-20879-88750.css?ver=1766420484.css’ saved [14961/14961]
+
+--2025-12-30 13:04:32--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88750
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88750’
+
+     0K .......... .......... ........                          261M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:32 (261 MB/s) - ‘wp-json/wp/v2/pages/88750’ saved [29543]
+
+--2025-12-30 13:04:34--  https://lex.virtual-efficiency.nl/?p=88750
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/aanmelding/ [following]
+--2025-12-30 13:04:35--  https://lex.virtual-efficiency.nl/aanmelding/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88750.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  153M
+   150K ......                                                 12.6T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:36 (498 KB/s) - ‘index.html?p=88750.html’ saved [160542]
+
+--2025-12-30 13:04:36--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88750/et-core-unified-88750.min.css?ver=1766420484
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88750/et-core-unified-88750.min.css?ver=1766420484.css’
+
+     0K .....                                                 100% 3.17G=0s
+
+2025-12-30 13:04:37 (3.17 GB/s) - ‘wp-content/et-cache/88750/et-core-unified-88750.min.css?ver=1766420484.css’ saved [5180/5180]
+
+--2025-12-30 13:04:38--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88750/et-core-unified-tb-71857-tb-20879-deferred-88750.min.css?ver=1766420484
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88750/et-core-unified-tb-71857-tb-20879-deferred-88750.min.css?ver=1766420484.css’
+
+     0K .........                                             100% 4.81G=0s
+
+2025-12-30 13:04:38 (4.81 GB/s) - ‘wp-content/et-cache/88750/et-core-unified-tb-71857-tb-20879-deferred-88750.min.css?ver=1766420484.css’ saved [9563/9563]
+
+--2025-12-30 13:04:39--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 60660 (59K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home.jpg’
+
+     0K .......... .......... .......... .......... .......... 84%  319K 0s
+    50K .........                                             100% 17.2T=0.2s
+
+2025-12-30 13:04:40 (377 KB/s) - ‘wp-content/uploads/2025/10/lex-home.jpg’ saved [60660/60660]
+
+--2025-12-30 13:04:40--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-home-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 41997 (41K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-home-480x567.jpg’
+
+     0K .......... .......... .......... .......... .         100%  261K=0.2s
+
+2025-12-30 13:04:41 (261 KB/s) - ‘wp-content/uploads/2025/10/lex-home-480x567.jpg’ saved [41997/41997]
+
+--2025-12-30 13:04:42--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/algemene_voorwaarden_duvekot.pdf
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 72415 (71K) [application/pdf]
+Saving to: ‘wp-content/uploads/2025/12/algemene_voorwaarden_duvekot.pdf’
+
+     0K .......... .......... .......... .......... .......... 70%  318K 0s
+    50K .......... ..........                                 100%  363M=0.2s
+
+2025-12-30 13:04:42 (450 KB/s) - ‘wp-content/uploads/2025/12/algemene_voorwaarden_duvekot.pdf’ saved [72415/72415]
+
+--2025-12-30 13:04:44--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F’
+
+     0K ..                                                      757M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:44 (757 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F’ saved [2314]
+
+--2025-12-30 13:04:45--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F&format=xml’
+
+     0K ..                                                     1015M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:45 (1015 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Ftarieven-en-vergoeding%2F&format=xml’ saved [2463]
+
+--2025-12-30 13:04:46--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88777
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88777’
+
+     0K .......... .....                                       3.95G=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:47 (3.95 GB/s) - ‘wp-json/wp/v2/pages/88777’ saved [15394]
+
+--2025-12-30 13:04:47--  https://lex.virtual-efficiency.nl/?p=88777
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/tarieven-en-vergoeding/ [following]
+--2025-12-30 13:04:49--  https://lex.virtual-efficiency.nl/tarieven-en-vergoeding/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88777.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  175M
+   150K .......... .....                                        215M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:50 (526 KB/s) - ‘index.html?p=88777.html’ saved [169466]
+
+--2025-12-30 13:04:50--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88777/et-core-unified-88777.min.css?ver=1766420490
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88777/et-core-unified-88777.min.css?ver=1766420490.css’
+
+     0K .....                                                 100% 2.27G=0s
+
+2025-12-30 13:04:51 (2.27 GB/s) - ‘wp-content/et-cache/88777/et-core-unified-88777.min.css?ver=1766420490.css’ saved [5180/5180]
+
+--2025-12-30 13:04:51--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88777/et-core-unified-tb-71857-tb-20879-deferred-88777.min.css?ver=1766420490
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356 (1.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88777/et-core-unified-tb-71857-tb-20879-deferred-88777.min.css?ver=1766420490.css’
+
+     0K .                                                     100%  787M=0s
+
+2025-12-30 13:04:51 (787 MB/s) - ‘wp-content/et-cache/88777/et-core-unified-tb-71857-tb-20879-deferred-88777.min.css?ver=1766420490.css’ saved [1356/1356]
+
+--2025-12-30 13:04:52--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F’
+
+     0K ..                                                      856M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:52 (856 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F’ saved [2249]
+
+--2025-12-30 13:04:53--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F&format=xml’
+
+     0K ..                                                      748M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:53 (748 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcursussen%2F&format=xml’ saved [2398]
+
+--2025-12-30 13:04:54--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88831/et-divi-dynamic-tb-71857-tb-20879-88831.css?ver=1766420513
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88831/et-divi-dynamic-tb-71857-tb-20879-88831.css?ver=1766420513.css’
+
+     0K .......... ....                                       100% 5.54G=0s
+
+2025-12-30 13:04:54 (5.54 GB/s) - ‘wp-content/et-cache/88831/et-divi-dynamic-tb-71857-tb-20879-88831.css?ver=1766420513.css’ saved [14961/14961]
+
+--2025-12-30 13:04:55--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88831
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88831’
+
+     0K .......... .....                                        201M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:55 (201 MB/s) - ‘wp-json/wp/v2/pages/88831’ saved [16045]
+
+--2025-12-30 13:04:56--  https://lex.virtual-efficiency.nl/?p=88831
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/cursussen/ [following]
+--2025-12-30 13:04:57--  https://lex.virtual-efficiency.nl/cursussen/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88831.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... ..........  140M
+   150K ..                                                     5.00T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:04:58 (486 KB/s) - ‘index.html?p=88831.html’ saved [156347]
+
+--2025-12-30 13:04:59--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88831/et-core-unified-88831.min.css?ver=1766420513
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88831/et-core-unified-88831.min.css?ver=1766420513.css’
+
+     0K .....                                                 100% 3.34G=0s
+
+2025-12-30 13:04:59 (3.34 GB/s) - ‘wp-content/et-cache/88831/et-core-unified-88831.min.css?ver=1766420513.css’ saved [5180/5180]
+
+--2025-12-30 13:05:00--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88831/et-core-unified-tb-71857-tb-20879-deferred-88831.min.css?ver=1766420513
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7326 (7.2K) [text/css]
+Saving to: ‘wp-content/et-cache/88831/et-core-unified-tb-71857-tb-20879-deferred-88831.min.css?ver=1766420513.css’
+
+     0K .......                                               100% 3.72G=0s
+
+2025-12-30 13:05:00 (3.72 GB/s) - ‘wp-content/et-cache/88831/et-core-unified-tb-71857-tb-20879-deferred-88831.min.css?ver=1766420513.css’ saved [7326/7326]
+
+--2025-12-30 13:05:01--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 43929 (43K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie.jpg’
+
+     0K .......... .......... .......... .......... ..        100%  273K=0.2s
+
+2025-12-30 13:05:02 (273 KB/s) - ‘wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie.jpg’ saved [43929/43929]
+
+--2025-12-30 13:05:03--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 31625 (31K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie-480x567.jpg’
+
+     0K .......... .......... ..........                      100%  264M=0s
+
+2025-12-30 13:05:03 (264 MB/s) - ‘wp-content/uploads/2025/12/cursussen-lex-duvekot-sportpsychologie-480x567.jpg’ saved [31625/31625]
+
+--2025-12-30 13:05:05--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F’
+
+     0K ..                                                      849M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:05 (849 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F’ saved [2249]
+
+--2025-12-30 13:05:06--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F&format=xml’
+
+     0K ..                                                     1006M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:06 (1006 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerkwijze%2F&format=xml’ saved [2398]
+
+--2025-12-30 13:05:07--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88617/et-divi-dynamic-tb-71857-tb-20879-88617.css?ver=1766420478
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88617/et-divi-dynamic-tb-71857-tb-20879-88617.css?ver=1766420478.css’
+
+     0K .......... ....                                       100% 6.47G=0s
+
+2025-12-30 13:05:07 (6.47 GB/s) - ‘wp-content/et-cache/88617/et-divi-dynamic-tb-71857-tb-20879-88617.css?ver=1766420478.css’ saved [14961/14961]
+
+--2025-12-30 13:05:08--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88617
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88617’
+
+     0K .......... .......... ....                              250M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:08 (250 MB/s) - ‘wp-json/wp/v2/pages/88617’ saved [25526]
+
+--2025-12-30 13:05:09--  https://lex.virtual-efficiency.nl/?p=88617
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/werkwijze/ [following]
+--2025-12-30 13:05:11--  https://lex.virtual-efficiency.nl/werkwijze/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88617.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  175M
+   150K .......... ...                                          228M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:12 (521 KB/s) - ‘index.html?p=88617.html’ saved [167910]
+
+--2025-12-30 13:05:13--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88617/et-core-unified-88617.min.css?ver=1766420478
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88617/et-core-unified-88617.min.css?ver=1766420478.css’
+
+     0K .....                                                 100% 2.13G=0s
+
+2025-12-30 13:05:13 (2.13 GB/s) - ‘wp-content/et-cache/88617/et-core-unified-88617.min.css?ver=1766420478.css’ saved [5180/5180]
+
+--2025-12-30 13:05:14--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88617/et-core-unified-tb-71857-tb-20879-deferred-88617.min.css?ver=1766420479
+Connecting to lex.virtual-efficiency.nl (lex.virtual-efficiency.nl)|141.138.168.127|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88617/et-core-unified-tb-71857-tb-20879-deferred-88617.min.css?ver=1766420479.css’
+
+     0K .........                                             100% 4.13G=0s
+
+2025-12-30 13:05:15 (4.13 GB/s) - ‘wp-content/et-cache/88617/et-core-unified-tb-71857-tb-20879-deferred-88617.min.css?ver=1766420479.css’ saved [9563/9563]
+
+--2025-12-30 13:05:16--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/werkwijze-v3.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 68565 (67K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/werkwijze-v3.jpg’
+
+     0K .......... .......... .......... .......... .......... 74%  318K 0s
+    50K .......... ......                                     100%  264M=0.2s
+
+2025-12-30 13:05:16 (426 KB/s) - ‘wp-content/uploads/2025/12/werkwijze-v3.jpg’ saved [68565/68565]
+
+--2025-12-30 13:05:17--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/werkwijze-v3-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 45090 (44K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/werkwijze-v3-480x567.jpg’
+
+     0K .......... .......... .......... .......... ....      100%  280K=0.2s
+
+2025-12-30 13:05:17 (280 KB/s) - ‘wp-content/uploads/2025/12/werkwijze-v3-480x567.jpg’ saved [45090/45090]
+
+--2025-12-30 13:05:18--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F’
+
+     0K ..                                                      933M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:18 (933 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F’ saved [2224]
+
+--2025-12-30 13:05:19--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F&format=xml’
+
+     0K ..                                                      745M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:19 (745 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fwerk%2F&format=xml’ saved [2373]
+
+--2025-12-30 13:05:20--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88579/et-divi-dynamic-tb-71857-tb-20879-88579.css?ver=1766420474
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88579/et-divi-dynamic-tb-71857-tb-20879-88579.css?ver=1766420474.css’
+
+     0K .......... ....                                       100% 5.87G=0s
+
+2025-12-30 13:05:21 (5.87 GB/s) - ‘wp-content/et-cache/88579/et-divi-dynamic-tb-71857-tb-20879-88579.css?ver=1766420474.css’ saved [14961/14961]
+
+--2025-12-30 13:05:22--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88579
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88579’
+
+     0K .......... .......... .....                             242M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:22 (242 MB/s) - ‘wp-json/wp/v2/pages/88579’ saved [26208]
+
+--2025-12-30 13:05:23--  https://lex.virtual-efficiency.nl/?p=88579
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2025-12-30 13:05:24--  (try: 2)  https://lex.virtual-efficiency.nl/?p=88579
+Connecting to lex.virtual-efficiency.nl (lex.virtual-efficiency.nl)|141.138.168.127|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/werk/ [following]
+--2025-12-30 13:05:26--  https://lex.virtual-efficiency.nl/werk/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88579.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  115M
+   150K ......                                                 12.8T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:27 (499 KB/s) - ‘index.html?p=88579.html’ saved [160621]
+
+--2025-12-30 13:05:28--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88579/et-core-unified-88579.min.css?ver=1766420474
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88579/et-core-unified-88579.min.css?ver=1766420474.css’
+
+     0K .....                                                 100% 2.21G=0s
+
+2025-12-30 13:05:28 (2.21 GB/s) - ‘wp-content/et-cache/88579/et-core-unified-88579.min.css?ver=1766420474.css’ saved [5180/5180]
+
+--2025-12-30 13:05:29--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88579/et-core-unified-tb-71857-tb-20879-deferred-88579.min.css?ver=1766420474
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88579/et-core-unified-tb-71857-tb-20879-deferred-88579.min.css?ver=1766420474.css’
+
+     0K .........                                             100% 4.61G=0s
+
+2025-12-30 13:05:29 (4.61 GB/s) - ‘wp-content/et-cache/88579/et-core-unified-tb-71857-tb-20879-deferred-88579.min.css?ver=1766420474.css’ saved [9563/9563]
+
+--2025-12-30 13:05:30--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/werk-1.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 32408 (32K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/werk-1.jpg’
+
+     0K .......... .......... .......... .                    100%  321M=0s
+
+2025-12-30 13:05:30 (321 MB/s) - ‘wp-content/uploads/2025/10/werk-1.jpg’ saved [32408/32408]
+
+--2025-12-30 13:05:31--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/werk-1-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22500 (22K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/werk-1-480x567.jpg’
+
+     0K .......... .......... .                               100%  257M=0s
+
+2025-12-30 13:05:32 (257 MB/s) - ‘wp-content/uploads/2025/10/werk-1-480x567.jpg’ saved [22500/22500]
+
+--2025-12-30 13:05:33--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fsport%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fsport%2F’
+
+     0K ..                                                      884M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:33 (884 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fsport%2F’ saved [2229]
+
+--2025-12-30 13:05:34--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fsport%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fsport%2F&format=xml’
+
+     0K ..                                                      848M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:34 (848 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fsport%2F&format=xml’ saved [2378]
+
+--2025-12-30 13:05:35--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88577/et-divi-dynamic-tb-71857-tb-20879-88577.css?ver=1766420467
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88577/et-divi-dynamic-tb-71857-tb-20879-88577.css?ver=1766420467.css’
+
+     0K .......... ....                                       100% 6.07G=0s
+
+2025-12-30 13:05:36 (6.07 GB/s) - ‘wp-content/et-cache/88577/et-divi-dynamic-tb-71857-tb-20879-88577.css?ver=1766420467.css’ saved [14961/14961]
+
+--2025-12-30 13:05:37--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88577
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88577’
+
+     0K .......... .......... .....                             240M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:37 (240 MB/s) - ‘wp-json/wp/v2/pages/88577’ saved [25849]
+
+--2025-12-30 13:05:38--  https://lex.virtual-efficiency.nl/?p=88577
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/sport/ [following]
+--2025-12-30 13:05:39--  https://lex.virtual-efficiency.nl/sport/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88577.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  201M
+   150K ......                                                 12.3T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:40 (498 KB/s) - ‘index.html?p=88577.html’ saved [160387]
+
+--2025-12-30 13:05:41--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88577/et-core-unified-88577.min.css?ver=1766420467
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88577/et-core-unified-88577.min.css?ver=1766420467.css’
+
+     0K .....                                                 100% 2.94G=0s
+
+2025-12-30 13:05:42 (2.94 GB/s) - ‘wp-content/et-cache/88577/et-core-unified-88577.min.css?ver=1766420467.css’ saved [5180/5180]
+
+--2025-12-30 13:05:42--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88577/et-core-unified-tb-71857-tb-20879-deferred-88577.min.css?ver=1766420467
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88577/et-core-unified-tb-71857-tb-20879-deferred-88577.min.css?ver=1766420467.css’
+
+     0K .........                                             100% 4.47G=0s
+
+2025-12-30 13:05:42 (4.47 GB/s) - ‘wp-content/et-cache/88577/et-core-unified-tb-71857-tb-20879-deferred-88577.min.css?ver=1766420467.css’ saved [9563/9563]
+
+--2025-12-30 13:05:44--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/sport-1.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 53802 (53K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/sport-1.jpg’
+
+     0K .......... .......... .......... .......... .......... 95%  318K 0s
+    50K ..                                                    100% 4.73T=0.2s
+
+2025-12-30 13:05:44 (334 KB/s) - ‘wp-content/uploads/2025/10/sport-1.jpg’ saved [53802/53802]
+
+--2025-12-30 13:05:45--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/sport-1-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 37377 (37K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/sport-1-480x567.jpg’
+
+     0K .......... .......... .......... ......               100%  234M=0s
+
+2025-12-30 13:05:46 (234 MB/s) - ‘wp-content/uploads/2025/10/sport-1-480x567.jpg’ saved [37377/37377]
+
+--2025-12-30 13:05:47--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F’
+
+     0K ..                                                      766M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:47 (766 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F’ saved [2254]
+
+--2025-12-30 13:05:49--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F&format=xml’
+
+     0K ..                                                      811M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:49 (811 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fgezondheid%2F&format=xml’ saved [2403]
+
+--2025-12-30 13:05:49--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88572/et-divi-dynamic-tb-71857-tb-20879-88572.css?ver=1766420462
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88572/et-divi-dynamic-tb-71857-tb-20879-88572.css?ver=1766420462.css’
+
+     0K .......... ....                                       100% 7.17G=0s
+
+2025-12-30 13:05:50 (7.17 GB/s) - ‘wp-content/et-cache/88572/et-divi-dynamic-tb-71857-tb-20879-88572.css?ver=1766420462.css’ saved [14961/14961]
+
+--2025-12-30 13:05:50--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88572
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88572’
+
+     0K .......... .......... ......                            235M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:51 (235 MB/s) - ‘wp-json/wp/v2/pages/88572’ saved [27080]
+
+--2025-12-30 13:05:52--  https://lex.virtual-efficiency.nl/?p=88572
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/gezondheid/ [following]
+--2025-12-30 13:05:54--  https://lex.virtual-efficiency.nl/gezondheid/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88572.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  150M
+   150K .......                                                14.4T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:05:55 (501 KB/s) - ‘index.html?p=88572.html’ saved [161497]
+
+--2025-12-30 13:05:56--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88572/et-core-unified-88572.min.css?ver=1766420462
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88572/et-core-unified-88572.min.css?ver=1766420462.css’
+
+     0K .....                                                 100% 2.66G=0s
+
+2025-12-30 13:05:56 (2.66 GB/s) - ‘wp-content/et-cache/88572/et-core-unified-88572.min.css?ver=1766420462.css’ saved [5180/5180]
+
+--2025-12-30 13:05:57--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88572/et-core-unified-tb-71857-tb-20879-deferred-88572.min.css?ver=1766420462
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88572/et-core-unified-tb-71857-tb-20879-deferred-88572.min.css?ver=1766420462.css’
+
+     0K .........                                             100% 3.61G=0s
+
+2025-12-30 13:05:57 (3.61 GB/s) - ‘wp-content/et-cache/88572/et-core-unified-tb-71857-tb-20879-deferred-88572.min.css?ver=1766420462.css’ saved [9563/9563]
+
+--2025-12-30 13:05:58--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/gezondheid-1.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 54771 (53K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/gezondheid-1.jpg’
+
+     0K .......... .......... .......... .......... .......... 93%  318K 0s
+    50K ...                                                   100% 6.50T=0.2s
+
+2025-12-30 13:05:59 (341 KB/s) - ‘wp-content/uploads/2025/10/gezondheid-1.jpg’ saved [54771/54771]
+
+--2025-12-30 13:05:59--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/gezondheid-1-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39158 (38K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/gezondheid-1-480x567.jpg’
+
+     0K .......... .......... .......... ........             100%  269M=0s
+
+2025-12-30 13:06:00 (269 MB/s) - ‘wp-content/uploads/2025/10/gezondheid-1-480x567.jpg’ saved [39158/39158]
+
+--2025-12-30 13:06:01--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F’
+
+     0K ..                                                      638M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:01 (638 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F’ saved [2284]
+
+--2025-12-30 13:06:02--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F&format=xml’
+
+     0K ..                                                     1.65G=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:02 (1.65 GB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Frunning-therapie%2F&format=xml’ saved [2433]
+
+--2025-12-30 13:06:03--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88822/et-divi-dynamic-tb-71857-tb-20879-88822.css?ver=1766420507
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 14961 (15K) [text/css]
+Saving to: ‘wp-content/et-cache/88822/et-divi-dynamic-tb-71857-tb-20879-88822.css?ver=1766420507.css’
+
+     0K .......... ....                                       100% 4.90G=0s
+
+2025-12-30 13:06:04 (4.90 GB/s) - ‘wp-content/et-cache/88822/et-divi-dynamic-tb-71857-tb-20879-88822.css?ver=1766420507.css’ saved [14961/14961]
+
+--2025-12-30 13:06:04--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88822
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88822’
+
+     0K .......... .......... .......                           282M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:05 (282 MB/s) - ‘wp-json/wp/v2/pages/88822’ saved [27845]
+
+--2025-12-30 13:06:06--  https://lex.virtual-efficiency.nl/?p=88822
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/running-therapie/ [following]
+--2025-12-30 13:06:08--  https://lex.virtual-efficiency.nl/running-therapie/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88822.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  111M
+   150K .....                                                  10.6T=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:09 (495 KB/s) - ‘index.html?p=88822.html’ saved [159431]
+
+--2025-12-30 13:06:10--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88822/et-core-unified-88822.min.css?ver=1766420507
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88822/et-core-unified-88822.min.css?ver=1766420507.css’
+
+     0K .....                                                 100% 3.15G=0s
+
+2025-12-30 13:06:10 (3.15 GB/s) - ‘wp-content/et-cache/88822/et-core-unified-88822.min.css?ver=1766420507.css’ saved [5180/5180]
+
+--2025-12-30 13:06:11--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88822/et-core-unified-tb-71857-tb-20879-deferred-88822.min.css?ver=1766420507
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9563 (9.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88822/et-core-unified-tb-71857-tb-20879-deferred-88822.min.css?ver=1766420507.css’
+
+     0K .........                                             100% 5.26G=0s
+
+2025-12-30 13:06:11 (5.26 GB/s) - ‘wp-content/et-cache/88822/et-core-unified-tb-71857-tb-20879-deferred-88822.min.css?ver=1766420507.css’ saved [9563/9563]
+
+--2025-12-30 13:06:12--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/running-therapie-v01.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 39229 (38K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/running-therapie-v01.jpg’
+
+     0K .......... .......... .......... ........             100%  175M=0s
+
+2025-12-30 13:06:12 (175 MB/s) - ‘wp-content/uploads/2025/12/running-therapie-v01.jpg’ saved [39229/39229]
+
+--2025-12-30 13:06:14--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/running-therapie-v01-480x567.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 26102 (25K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/12/running-therapie-v01-480x567.jpg’
+
+     0K .......... .......... .....                           100%  261M=0s
+
+2025-12-30 13:06:14 (261 MB/s) - ‘wp-content/uploads/2025/12/running-therapie-v01-480x567.jpg’ saved [26102/26102]
+
+--2025-12-30 13:06:16--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F’
+
+     0K ..                                                      521M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:16 (521 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F’ saved [2239]
+
+--2025-12-30 13:06:17--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F&format=xml’
+
+     0K ..                                                      803M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:17 (803 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fcontact%2F&format=xml’ saved [2388]
+
+--2025-12-30 13:06:18--  https://lex.virtual-efficiency.nl/wp-content/et-cache/173/et-divi-dynamic-tb-71857-tb-20879-173.css?ver=1766420456
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 9601 (9.4K) [text/css]
+Saving to: ‘wp-content/et-cache/173/et-divi-dynamic-tb-71857-tb-20879-173.css?ver=1766420456.css’
+
+     0K .........                                             100% 3.04G=0s
+
+2025-12-30 13:06:19 (3.04 GB/s) - ‘wp-content/et-cache/173/et-divi-dynamic-tb-71857-tb-20879-173.css?ver=1766420456.css’ saved [9601/9601]
+
+--2025-12-30 13:06:20--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/173
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/173’
+
+     0K .......... ......                                       142M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:20 (142 MB/s) - ‘wp-json/wp/v2/pages/173’ saved [16452]
+
+--2025-12-30 13:06:21--  https://lex.virtual-efficiency.nl/?p=173
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/contact/ [following]
+--2025-12-30 13:06:22--  https://lex.virtual-efficiency.nl/contact/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=173.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... .......... 97.3M
+   150K .......... .......... .......... .......... ..........  217M
+   200K .......... ...                                         83.5K=0.5s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:23 (452 KB/s) - ‘index.html?p=173.html’ saved [218165]
+
+--2025-12-30 13:06:24--  https://lex.virtual-efficiency.nl/wp-content/et-cache/173/et-core-unified-173.min.css?ver=1766420456
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/173/et-core-unified-173.min.css?ver=1766420456.css’
+
+     0K .....                                                 100% 2.90G=0s
+
+2025-12-30 13:06:25 (2.90 GB/s) - ‘wp-content/et-cache/173/et-core-unified-173.min.css?ver=1766420456.css’ saved [5180/5180]
+
+--2025-12-30 13:06:26--  https://lex.virtual-efficiency.nl/wp-content/et-cache/173/et-core-unified-tb-71857-tb-20879-deferred-173.min.css?ver=1766420456
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 7326 (7.2K) [text/css]
+Saving to: ‘wp-content/et-cache/173/et-core-unified-tb-71857-tb-20879-deferred-173.min.css?ver=1766420456.css’
+
+     0K .......                                               100% 3.53G=0s
+
+2025-12-30 13:06:26 (3.53 GB/s) - ‘wp-content/et-cache/173/et-core-unified-tb-71857-tb-20879-deferred-173.min.css?ver=1766420456.css’ saved [7326/7326]
+
+--2025-12-30 13:06:27--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/10/lex-pexels-cottonbro-7337615.jpg
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 164412 (161K) [image/jpeg]
+Saving to: ‘wp-content/uploads/2025/10/lex-pexels-cottonbro-7337615.jpg’
+
+     0K .......... .......... .......... .......... .......... 31% 85.6K 1s
+    50K .......... .......... .......... .......... .......... 62%  318K 0s
+   100K .......... .......... .......... .......... .......... 93%  179M 0s
+   150K ..........                                            100%  250M=0.7s
+
+2025-12-30 13:06:28 (217 KB/s) - ‘wp-content/uploads/2025/10/lex-pexels-cottonbro-7337615.jpg’ saved [164412/164412]
+
+--2025-12-30 13:06:29--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F’
+
+     0K ..                                                      615M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:29 (615 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F’ saved [2300]
+
+--2025-12-30 13:06:30--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F&format=xml’
+
+     0K ..                                                      909M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:31 (909 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fprivacy-cookies%2F&format=xml’ saved [2446]
+
+--2025-12-30 13:06:31--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88569
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88569’
+
+     0K .......... ..                                          2.74G=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:32 (2.74 GB/s) - ‘wp-json/wp/v2/pages/88569’ saved [12391]
+
+--2025-12-30 13:06:32--  https://lex.virtual-efficiency.nl/?p=88569
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/privacy-cookies/ [following]
+--2025-12-30 13:06:34--  https://lex.virtual-efficiency.nl/privacy-cookies/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88569.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... ..........  162M
+   150K .......... .......                                      245M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:35 (533 KB/s) - ‘index.html?p=88569.html’ saved [171588]
+
+--2025-12-30 13:06:36--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88569/et-core-unified-88569.min.css?ver=1766420449
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88569/et-core-unified-88569.min.css?ver=1766420449.css’
+
+     0K .....                                                 100% 2.46G=0s
+
+2025-12-30 13:06:36 (2.46 GB/s) - ‘wp-content/et-cache/88569/et-core-unified-88569.min.css?ver=1766420449.css’ saved [5180/5180]
+
+--2025-12-30 13:06:37--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88569/et-core-unified-tb-71857-tb-20879-deferred-88569.min.css?ver=1766420450
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356 (1.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88569/et-core-unified-tb-71857-tb-20879-deferred-88569.min.css?ver=1766420450.css’
+
+     0K .                                                     100%  949M=0s
+
+2025-12-30 13:06:37 (949 MB/s) - ‘wp-content/et-cache/88569/et-core-unified-tb-71857-tb-20879-deferred-88569.min.css?ver=1766420450.css’ saved [1356/1356]
+
+--2025-12-30 13:06:38--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F’
+
+     0K ..                                                      568M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:38 (568 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F’ saved [2254]
+
+--2025-12-30 13:06:39--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F&format=xml’
+
+     0K ..                                                      762M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:40 (762 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fdisclaimer%2F&format=xml’ saved [2403]
+
+--2025-12-30 13:06:41--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/71372
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/71372’
+
+     0K .......... ......                                       168M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:42 (168 MB/s) - ‘wp-json/wp/v2/pages/71372’ saved [16985]
+
+--2025-12-30 13:06:43--  https://lex.virtual-efficiency.nl/?p=71372
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/disclaimer/ [following]
+--2025-12-30 13:06:44--  https://lex.virtual-efficiency.nl/disclaimer/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=71372.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  318K
+   100K .......... .......... .......... .......... ..........  125M
+   150K .......... ...                                          211M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:45 (520 KB/s) - ‘index.html?p=71372.html’ saved [167496]
+
+--2025-12-30 13:06:47--  https://lex.virtual-efficiency.nl/wp-content/et-cache/71372/et-core-unified-71372.min.css?ver=1766420444
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/71372/et-core-unified-71372.min.css?ver=1766420444.css’
+
+     0K .....                                                 100% 2.60G=0s
+
+2025-12-30 13:06:47 (2.60 GB/s) - ‘wp-content/et-cache/71372/et-core-unified-71372.min.css?ver=1766420444.css’ saved [5180/5180]
+
+--2025-12-30 13:06:48--  https://lex.virtual-efficiency.nl/wp-content/et-cache/71372/et-core-unified-tb-71857-tb-20879-deferred-71372.min.css?ver=1766420444
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356 (1.3K) [text/css]
+Saving to: ‘wp-content/et-cache/71372/et-core-unified-tb-71857-tb-20879-deferred-71372.min.css?ver=1766420444.css’
+
+     0K .                                                     100% 1.38G=0s
+
+2025-12-30 13:06:48 (1.38 GB/s) - ‘wp-content/et-cache/71372/et-core-unified-tb-71857-tb-20879-deferred-71372.min.css?ver=1766420444.css’ saved [1356/1356]
+
+--2025-12-30 13:06:49--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F’
+
+     0K ..                                                      908M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:49 (908 MB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F’ saved [2289]
+
+--2025-12-30 13:06:50--  https://lex.virtual-efficiency.nl/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F&format=xml
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/xml]
+Saving to: ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F&format=xml’
+
+     0K ..                                                     1.44G=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:50 (1.44 GB/s) - ‘wp-json/oembed/1.0/embed?url=https:%2F%2Flex.virtual-efficiency.nl%2Fkwaliteitsstatuut%2F&format=xml’ saved [2438]
+
+--2025-12-30 13:06:51--  https://lex.virtual-efficiency.nl/wp-json/wp/v2/pages/88794
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘wp-json/wp/v2/pages/88794’
+
+     0K .......... .....                                       3.62G=0s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:52 (3.62 GB/s) - ‘wp-json/wp/v2/pages/88794’ saved [15456]
+
+--2025-12-30 13:06:52--  https://lex.virtual-efficiency.nl/?p=88794
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://lex.virtual-efficiency.nl/kwaliteitsstatuut/ [following]
+--2025-12-30 13:06:54--  https://lex.virtual-efficiency.nl/kwaliteitsstatuut/
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?p=88794.html’
+
+     0K .......... .......... .......... .......... ..........  318K
+    50K .......... .......... .......... .......... ..........  319K
+   100K .......... .......... .......... .......... .......... 51.3M
+   150K .......... .                                            121M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2025-12-30 13:06:55 (511 KB/s) - ‘index.html?p=88794.html’ saved [164973]
+
+--2025-12-30 13:06:56--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88794/et-core-unified-88794.min.css?ver=1766420496
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 5180 (5.1K) [text/css]
+Saving to: ‘wp-content/et-cache/88794/et-core-unified-88794.min.css?ver=1766420496.css’
+
+     0K .....                                                 100% 2.59G=0s
+
+2025-12-30 13:06:56 (2.59 GB/s) - ‘wp-content/et-cache/88794/et-core-unified-88794.min.css?ver=1766420496.css’ saved [5180/5180]
+
+--2025-12-30 13:06:57--  https://lex.virtual-efficiency.nl/wp-content/et-cache/88794/et-core-unified-tb-71857-tb-20879-deferred-88794.min.css?ver=1766420496
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 1356 (1.3K) [text/css]
+Saving to: ‘wp-content/et-cache/88794/et-core-unified-tb-71857-tb-20879-deferred-88794.min.css?ver=1766420496.css’
+
+     0K .                                                     100%  839M=0s
+
+2025-12-30 13:06:57 (839 MB/s) - ‘wp-content/et-cache/88794/et-core-unified-tb-71857-tb-20879-deferred-88794.min.css?ver=1766420496.css’ saved [1356/1356]
+
+--2025-12-30 13:06:59--  https://lex.virtual-efficiency.nl/wp-content/uploads/2025/12/Brochure-kwaliteitsbeleid-LVVP-2023-DEF.pdf
+Reusing existing connection to lex.virtual-efficiency.nl:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 288344 (282K) [application/pdf]
+Saving to: ‘wp-content/uploads/2025/12/Brochure-kwaliteitsbeleid-LVVP-2023-DEF.pdf’
+
+     0K .......... .......... .......... .......... .......... 17%  318K 1s
+    50K .......... .......... .......... .......... .......... 35%  319K 1s
+   100K .......... .......... .......... .......... .......... 53%  103M 0s
+   150K .......... .......... .......... .......... .......... 71%  243M 0s
+   200K .......... .......... .......... .......... .......... 88%  319K 0s
+   250K .......... .......... .......... .                    100%  247M=0.5s
+
+2025-12-30 13:06:59 (597 KB/s) - ‘wp-content/uploads/2025/12/Brochure-kwaliteitsbeleid-LVVP-2023-DEF.pdf’ saved [288344/288344]
+
+FINISHED --2025-12-30 13:06:59--
+Total wall clock time: 4m 15s
+Downloaded: 159 files, 7.5M in 14s (535 KB/s)
+Converting links in over-mij/index.html... 72.
+67-5
+Converting links in index.html?p=88572.html... 75.
+70-5
+Converting links in index.html?p=173.html... 72.
+67-5
+Converting links in kwaliteitsstatuut.html... 70.
+65-5
+Converting links in werk/index.html... 75.
+70-5
+Converting links in index.html?p=71372.html... 69.
+64-5
+Converting links in index.html?p=88750.html... 75.
+70-5
+Converting links in index.html?p=88577.html... 75.
+70-5
+Converting links in index.html?p=88822.html... 74.
+69-5
+Converting links in sport/index.html... 75.
+70-5
+Converting links in gezondheid/index.html... 75.
+70-5
+Converting links in index.html... 82.
+77-5
+Converting links in tarieven-en-vergoeding/index.html... 69.
+64-5
+Converting links in behandeling/index.html... 76.
+71-5
+Converting links in cursussen/index.html... 73.
+68-5
+Converting links in aanmelding/index.html... 75.
+70-5
+Converting links in index.html?p=88617.html... 74.
+69-5
+Converting links in index.html?p=88569.html... 69.
+64-5
+Converting links in index.html?p=88831.html... 73.
+68-5
+Converting links in index.html?p=88777.html... 69.
+64-5
+Converting links in index.html?p=88794.html... 70.
+65-5
+Converting links in privacy/index.html... 69.
+64-5
+Converting links in index.html?p=88579.html... 75.
+70-5
+Converting links in contact/index.html... 72.
+67-5
+Converting links in running-therapie/index.html... 74.
+69-5
+Converting links in index.html?p=71253.html... 72.
+67-5
+Converting links in werkwijze/index.html... 74.
+69-5
+Converting links in index.html?p=88799.html... 76.
+71-5
+Converting links in disclaimer/index.html... 69.
+64-5
+Converting links in wp-content/et-cache/173/et-core-unified-tb-71857-tb-20879-deferred-173.min.css?ver=1766420456.css... nothing to do.
+Converting links in wp-content/et-cache/88572/et-divi-dynamic-tb-71857-tb-20879-88572.css?ver=1766420462.css... nothing to do.
+Converting links in wp-content/et-cache/88822/et-core-unified-88822.min.css?ver=1766420507.css... nothing to do.
+Converting links in wp-content/et-cache/88569/et-core-unified-88569.min.css?ver=1766420449.css... nothing to do.
+Converting links in wp-content/et-cache/88777/et-core-unified-tb-71857-tb-20879-deferred-88777.min.css?ver=1766420490.css... nothing to do.
+Converting links in wp-content/et-cache/88572/et-core-unified-tb-71857-tb-20879-deferred-88572.min.css?ver=1766420462.css... nothing to do.
+Converting links in wp-content/et-cache/88777/et-core-unified-88777.min.css?ver=1766420490.css... nothing to do.
+Converting links in wp-content/et-cache/88799/et-core-unified-88799.min.css?ver=1766420502.css... nothing to do.
+Converting links in wp-content/et-cache/88794/et-core-unified-tb-71857-tb-20879-deferred-88794.min.css?ver=1766420496.css... nothing to do.
+Converting links in wp-content/et-cache/88750/et-divi-dynamic-tb-71857-tb-20879-88750.css?ver=1766420484.css... nothing to do.
+Converting links in wp-content/et-cache/173/et-core-unified-173.min.css?ver=1766420456.css... nothing to do.
+Converting links in wp-content/et-cache/88577/et-core-unified-tb-71857-tb-20879-deferred-88577.min.css?ver=1766420467.css... nothing to do.
+Converting links in wp-content/et-cache/88617/et-divi-dynamic-tb-71857-tb-20879-88617.css?ver=1766420478.css... nothing to do.
+Converting links in wp-content/et-cache/88577/et-divi-dynamic-tb-71857-tb-20879-88577.css?ver=1766420467.css... nothing to do.
+Converting links in wp-content/et-cache/88579/et-core-unified-tb-71857-tb-20879-deferred-88579.min.css?ver=1766420474.css... nothing to do.
+Converting links in wp-content/et-cache/71253/et-core-unified-71253.min.css?ver=1766420439.css... nothing to do.
+Converting links in wp-content/et-cache/88822/et-core-unified-tb-71857-tb-20879-deferred-88822.min.css?ver=1766420507.css... nothing to do.
+Converting links in wp-content/et-cache/71372/et-core-unified-tb-71857-tb-20879-deferred-71372.min.css?ver=1766420444.css... nothing to do.
+Converting links in wp-content/et-cache/9/et-core-unified-9.min.css?ver=1766233711.css... nothing to do.
+Converting links in wp-content/et-cache/88822/et-divi-dynamic-tb-71857-tb-20879-88822.css?ver=1766420507.css... nothing to do.
+Converting links in wp-content/et-cache/88831/et-divi-dynamic-tb-71857-tb-20879-88831.css?ver=1766420513.css... nothing to do.
+Converting links in wp-content/et-cache/9/et-divi-dynamic-tb-71857-tb-20879-9.css?ver=1766233711.css... nothing to do.
+Converting links in wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css?ver=1765950887.css... nothing to do.
+Converting links in wp-content/et-cache/173/et-divi-dynamic-tb-71857-tb-20879-173.css?ver=1766420456.css... nothing to do.
+Converting links in wp-content/et-cache/88579/et-divi-dynamic-tb-71857-tb-20879-88579.css?ver=1766420474.css... nothing to do.
+Converting links in wp-content/et-cache/88577/et-core-unified-88577.min.css?ver=1766420467.css... nothing to do.
+Converting links in wp-content/et-cache/88572/et-core-unified-88572.min.css?ver=1766420462.css... nothing to do.
+Converting links in wp-content/et-cache/88794/et-core-unified-88794.min.css?ver=1766420496.css... nothing to do.
+Converting links in wp-content/et-cache/71372/et-core-unified-71372.min.css?ver=1766420444.css... nothing to do.
+Converting links in wp-content/et-cache/88617/et-core-unified-tb-71857-tb-20879-deferred-88617.min.css?ver=1766420479.css... nothing to do.
+Converting links in wp-content/et-cache/9/et-core-unified-tb-71857-tb-20879-deferred-9.min.css?ver=1766233711.css... nothing to do.
+Converting links in wp-content/et-cache/71253/et-core-unified-tb-71857-tb-20879-deferred-71253.min.css?ver=1766420439.css... nothing to do.
+Converting links in wp-content/et-cache/88831/et-core-unified-tb-71857-tb-20879-deferred-88831.min.css?ver=1766420513.css... nothing to do.
+Converting links in wp-content/et-cache/88569/et-core-unified-tb-71857-tb-20879-deferred-88569.min.css?ver=1766420450.css... nothing to do.
+Converting links in wp-content/et-cache/88617/et-core-unified-88617.min.css?ver=1766420478.css... nothing to do.
+Converting links in wp-content/et-cache/88799/et-core-unified-tb-71857-tb-20879-deferred-88799.min.css?ver=1766420502.css... nothing to do.
+Converting links in wp-content/et-cache/88750/et-core-unified-tb-71857-tb-20879-deferred-88750.min.css?ver=1766420484.css... nothing to do.
+Converting links in wp-content/et-cache/88799/et-divi-dynamic-tb-71857-tb-20879-88799.css?ver=1766420502.css... nothing to do.
+Converting links in wp-content/et-cache/88831/et-core-unified-88831.min.css?ver=1766420513.css... nothing to do.
+Converting links in wp-content/et-cache/88750/et-core-unified-88750.min.css?ver=1766420484.css... nothing to do.
+Converting links in wp-content/et-cache/88579/et-core-unified-88579.min.css?ver=1766420474.css... nothing to do.
+Converted links in 70 files in 0.06 seconds.
